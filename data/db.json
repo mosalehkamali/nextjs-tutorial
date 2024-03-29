@@ -1,9 +1,17 @@
 {
-    "topics":[
+    "seasons":[
         {
         "id":1,
-        "title":"مفهوم Hydration در Pre-rendering",
-        "lessonLink":"https://sabzlearn.ir/lesson/45-27885/"
+        "title":"کانسپت های مربوط به Pre-rendering و Data Fetching",
+        "path":"Pre-rendering-Data-Fetching",
+        "topics":[
+           {
+             "id":101,
+             "title":"مفهوم Hydration در Pre-rendering",
+             "path":"Hydration",
+             "lessonLink":"https://sabzlearn.ir/lesson/45-27885/"
+           }
+        ]
         }
     ]
 }

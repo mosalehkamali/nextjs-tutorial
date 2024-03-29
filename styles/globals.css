@@ -107,3 +107,24 @@ a {
     color-scheme: dark;
   }
 }
+
+.title{
+  font-size: 52px;
+  color: darkgoldenrod;
+}
+
+ul{
+  margin: 2rem;
+  display: flex;
+  justify-content: center;
+}
+
+li{
+  margin: 1rem;
+  font-size: 24px;
+  background-color: #292E31;
+  padding: 5px;
+  width: 70%;
+  border-radius: 100px;
+  list-style: none;
+}
