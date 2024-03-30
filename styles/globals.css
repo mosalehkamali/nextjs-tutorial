@@ -119,8 +119,10 @@ a {
 ul{
   margin: 2rem;
   display: flex;
+  flex-direction: column;
   text-align: center;
   justify-content: center;
+  align-items: center;
 }
 
 li{

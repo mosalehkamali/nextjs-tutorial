@@ -10,7 +10,13 @@
              "title":"مفهوم Hydration در Pre-rendering",
              "path":"hydration",
              "lessonLink":"https://sabzlearn.ir/lesson/45-27885/"
-           }
+           },
+           {
+            "id":102,
+            "title":"SSR و SSG چطور لود میشن و چه تفاوت هایی دارن؟",
+            "path":"SSRandSSG",
+            "lessonLink":"https://sabzlearn.ir/lesson/45-27886/"
+          }
         ]
         }
     ]
