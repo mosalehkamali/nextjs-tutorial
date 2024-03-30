@@ -1,8 +1,9 @@
 .topicHeader{
-    position: absolute;
+    position: relative;
     display: flex;
     flex-direction: column;
     gap: 2rem;
+    margin-bottom: 2rem;
 }
 
 .seasonTitle{
@@ -11,6 +12,8 @@
     background-color: transparent;
     border: none;
     cursor: pointer;
+    justify-self: start;
+    display: flex;
 }
 
 .topicTitle{

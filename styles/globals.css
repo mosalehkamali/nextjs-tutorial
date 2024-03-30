@@ -132,3 +132,18 @@ li{
   border-radius: 100px;
   list-style: none;
 }
+
+.topic-container{
+  padding: 1rem;
+}
+
+.topic-text{
+  font-size: 20px;
+  line-height: 32px;
+  margin:1rem 0;
+}
+
+.topic-link{
+  color: blue;
+  
+}
