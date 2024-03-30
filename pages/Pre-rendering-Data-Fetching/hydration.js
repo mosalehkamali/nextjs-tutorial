@@ -1,10 +1,12 @@
 import React from 'react'
+import TopicHeader from '@/components/module/TopicHeader'
 
 function hydration() {
+
   return (
-    <div>
-      hello
-    </div>
+    <>
+      <TopicHeader></TopicHeader>
+    </>
   )
 }
 

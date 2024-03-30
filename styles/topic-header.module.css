@@ -1,0 +1,26 @@
+.topicHeader{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.seasonTitle{
+    color: darkgoldenrod;
+    font-size: 24px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.topicTitle{
+    font-size: 48px;
+}
+
+.vidBtn{
+    font-size: 24px;
+    color: #17ffff;
+    background-color:#2ac3d16b;
+    padding: 5px;
+    border-radius: 5px;
+}
