@@ -12,11 +12,23 @@
              "lessonLink":"https://sabzlearn.ir/lesson/45-27885/"
            },
            {
-            "id":102,
-            "title":"SSR و SSG چطور لود میشن و چه تفاوت هایی دارن؟",
-            "path":"SSRandSSG",
-            "lessonLink":"https://sabzlearn.ir/lesson/45-27886/"
-          }
+             "id":102,
+             "title":"SSR و SSG چطور لود میشن و چه تفاوت هایی دارن؟",
+             "path":"SSRandSSG",
+             "lessonLink":"https://sabzlearn.ir/lesson/45-27886/"
+           },
+           {
+             "id":103,
+             "title":"Data Fetching در Next.js چطور و کجا انجام میشه؟",
+             "path":"DataFetchingInNextjs",
+             "lessonLink":"https://sabzlearn.ir/lesson/45-27887/"
+           },
+           {
+             "id":104,
+             "title":"استفاده از getStaticProps بدون Data",
+             "path":"getStaticPropsWithoutData",
+             "lessonLink":"https://sabzlearn.ir/lesson/45-27887/"
+           }
         ]
         }
     ]
