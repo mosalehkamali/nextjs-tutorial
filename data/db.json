@@ -28,7 +28,13 @@
              "title":"استفاده از getStaticProps بدون Data",
              "path":"getStaticPropsWithoutData",
              "lessonLink":"https://sabzlearn.ir/lesson/45-27931/"
-           }
+           },
+           {
+            "id":105,
+            "title":"استفاده از data-fetching در SSG",
+            "path":"DataFetchingInSSG",
+            "lessonLink":"https://sabzlearn.ir/lesson/45-27932/"
+          }
         ]
         }
     ]
