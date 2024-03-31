@@ -147,5 +147,13 @@ li{
 
 .topic-link{
   color: blue;
-  
+}
+
+pre{
+  direction: ltr;
+  background-color:#272822 ;
+  padding: 2rem;
+  margin: 5px;
+  color: #229242;
+  border-radius: 10px;
 }
