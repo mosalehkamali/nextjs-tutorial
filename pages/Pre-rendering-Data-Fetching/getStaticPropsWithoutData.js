@@ -1,15 +1,18 @@
-import React from 'react'
+import React, { useState } from 'react'
 import TopicHeader from '@/components/module/TopicHeader'
 import Link from 'next/link'
+import CodeBox from '@/components/module/CodeBox'
 
 function getStaticPropsWithoutData({ textContent, example }) {
+  
+  const [code , setCode]= useState(example)
 
     return (
         <>
             <TopicHeader></TopicHeader>
             <p className='topic-text'> {textContent} </p>
             <Link className='topic-link' href="https://nextjs.org/docs/pages/building-your-application/rendering/static-site-generation#static-generation-without-data">Next.js document about this topic</Link>
-            <pre className="code-example"> {example} </pre>
+           <CodeBox code={code} ></CodeBox>
         </>
     )
 }
@@ -30,6 +33,9 @@ import React from 'react'
 import Link from 'next/link'
 
 function getStaticPropsWithoutData({ textContent, example }) {
+  
+  const [code , setCode]= useState(example)
+
   return (
     <>
      <p className='topic-text'> {textContent} </p>

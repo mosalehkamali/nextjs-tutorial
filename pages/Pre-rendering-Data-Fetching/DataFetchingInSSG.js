@@ -1,6 +1,7 @@
 import React from 'react'
 import TopicHeader from '@/components/module/TopicHeader'
 import Link from 'next/link'
+import CodeBox from '@/components/module/CodeBox'
 
 function DataFetchingInSSG({ data }) {
     return (
@@ -13,19 +14,16 @@ function DataFetchingInSSG({ data }) {
             <br />
             <br />
             {data.map((product) => <p dir='ltr' key={product.id}>{product.id + '-' + product.title}</p>)}
-            <pre>
-                {
+            <CodeBox code={
 `export async function getStaticProps(){
 
    const res =  await fetch('https://fakestoreapi.com/products?limit=5')
    const data = await res.json();
-   
+
    return{
        props: {data}, // این پراپ دیتا را برای کامپوننت ارسال میکند 
    }
-}`
-                }
-            </pre>
+}`}></CodeBox>
         </>
     )
 }
