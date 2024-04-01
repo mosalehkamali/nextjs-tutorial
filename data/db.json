@@ -46,6 +46,12 @@
             "title":"استفاده از getStaticPaths",
             "path":"UseGetStaticPaths",
             "lessonLink":"https://sabzlearn.ir/lesson/45-27935/"
+           },
+           {
+            "id":108,
+            "title":"ارسال paths به صورت Dynamic",
+            "path":"DynamicPathsSend",
+            "lessonLink":"https://sabzlearn.ir/lesson/45-27936/"
           }
         ]
         }
