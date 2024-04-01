@@ -52,7 +52,13 @@
             "title":"ارسال paths به صورت Dynamic",
             "path":"DynamicPathsSend",
             "lessonLink":"https://sabzlearn.ir/lesson/45-27936/"
-          }
+           },
+           {
+            "id":109,
+            "title":"بررسی SSG در نسخه Build شده پروژه",
+            "path":"SSGBuilding",
+            "lessonLink":"https://sabzlearn.ir/lesson/45-27937/"
+           } 
         ]
         }
     ]
