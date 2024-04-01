@@ -34,6 +34,12 @@
             "title":"استفاده از data-fetching در SSG",
             "path":"DataFetchingInSSG",
             "lessonLink":"https://sabzlearn.ir/lesson/45-27932/"
+           },
+           {
+            "id":106,
+            "title":"پیاده سازی به صورت SSG در روت های Dynamic",
+            "path":"SSGinDynamicRout",
+            "lessonLink":"https://sabzlearn.ir/lesson/45-27934/"
           }
         ]
         }
