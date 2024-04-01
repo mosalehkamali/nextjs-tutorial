@@ -40,6 +40,12 @@
             "title":"پیاده سازی به صورت SSG در روت های Dynamic",
             "path":"SSGinDynamicRout",
             "lessonLink":"https://sabzlearn.ir/lesson/45-27934/"
+           },
+           {
+            "id":107,
+            "title":"استفاده از getStaticPaths",
+            "path":"UseGetStaticPaths",
+            "lessonLink":"https://sabzlearn.ir/lesson/45-27935/"
           }
         ]
         }
