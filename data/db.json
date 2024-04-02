@@ -76,6 +76,12 @@
             "title":"بررسی true بودن Fallback",
             "path":"FallbackTrue",
             "lessonLink":"https://sabzlearn.ir/lesson/45-27940/"
+           },
+           {
+            "id":113,
+            "title":"نمایش صفحه 404 در getStaticProps",
+            "path":"GetStaticProps404",
+            "lessonLink":"https://sabzlearn.ir/lesson/45-27941/"
            }
 
         ]
