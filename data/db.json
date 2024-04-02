@@ -58,7 +58,13 @@
             "title":"بررسی SSG در نسخه Build شده پروژه",
             "path":"SSGBuilding",
             "lessonLink":"https://sabzlearn.ir/lesson/45-27937/"
-           } 
+           },
+           {
+            "id":110,
+            "title":"بررسی قابلیت preFetch کامپوننت Link",
+            "path":"PreFetchInLink",
+            "lessonLink":"https://sabzlearn.ir/lesson/45-27938/"
+           }
         ]
         }
     ]
