@@ -64,6 +64,12 @@
             "title":"بررسی قابلیت preFetch کامپوننت Link",
             "path":"PreFetchInLink",
             "lessonLink":"https://sabzlearn.ir/lesson/45-27938/"
+           },
+           {
+            "id":111,
+            "title":"بررسی false بودن Fallback",
+            "path":"FallbackFalse",
+            "lessonLink":"https://sabzlearn.ir/lesson/45-27939/"
            }
         ]
         }
