@@ -82,6 +82,12 @@
             "title":"نمایش صفحه 404 در getStaticProps",
             "path":"GetStaticProps404",
             "lessonLink":"https://sabzlearn.ir/lesson/45-27941/"
+           },
+           {
+            "id":114,
+            "title":"ریدایرکت کردن کاربر به صفحه دلخواه در getStaticProps",
+            "path":"GetStaticPropsRedirect",
+            "lessonLink":"https://sabzlearn.ir/lesson/45-27942/"
            }
 
         ]
