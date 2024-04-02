@@ -11,7 +11,7 @@ function FallbackFalse() {
      <p className='topic-text'>
             در تابع getStaticPaths دو پراپرتی ریترن میشوند اولیpahts است و دومی Fallback است فال بک سه ولیو میتواند داشته باشد true false , "blocking" وقتی برابر با فالس باشد فقط ورودی هایی که در paths مشخص شده و صفحات اس اس جی آن ها در سرور ساخته شده است نمایش داده میشود و اگر یو آر ال ورودی دیگری بگیرد به صفحه نات فوند انتقال داده میشود..
      </p>
-     <Link className='topic-link' href="https://nextjs.org/docs/pages/api-reference/components/link#prefetch">Next.js document about this topic</Link>
+     <Link className='topic-link' href="https://nextjs.org/docs/pages/building-your-application/data-fetching/get-static-paths#generating-paths-on-demand">Next.js document about this topic</Link>
      <CodeBox code={
        `//روتی به شکل [id]داریم که میخواهیم به وسیله id روت برای هر محصول یک صفحه SSG بسازیم
        export async function getStaticPaths(){

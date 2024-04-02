@@ -70,7 +70,14 @@
             "title":"بررسی false بودن Fallback",
             "path":"FallbackFalse",
             "lessonLink":"https://sabzlearn.ir/lesson/45-27939/"
+           },
+           {
+            "id":112,
+            "title":"بررسی true بودن Fallback",
+            "path":"FallbackTrue",
+            "lessonLink":"https://sabzlearn.ir/lesson/45-27940/"
            }
+
         ]
         }
     ]
