@@ -94,6 +94,12 @@
             "title":"بررسی blocking بودن fallback",
             "path":"FallbackBlocking",
             "lessonLink":"https://sabzlearn.ir/lesson/45-27943/"
+           },
+           {
+            "id":116,
+            "title":"مفهوم ISR",
+            "path":"ISRConcept",
+            "lessonLink":"https://sabzlearn.ir/lesson/45-27944/"
            }
 
         ]
