@@ -88,6 +88,12 @@
             "title":"ریدایرکت کردن کاربر به صفحه دلخواه در getStaticProps",
             "path":"GetStaticPropsRedirect",
             "lessonLink":"https://sabzlearn.ir/lesson/45-27942/"
+           },
+           {
+            "id":115,
+            "title":"بررسی blocking بودن fallback",
+            "path":"FallbackBlocking",
+            "lessonLink":"https://sabzlearn.ir/lesson/45-27943/"
            }
 
         ]
