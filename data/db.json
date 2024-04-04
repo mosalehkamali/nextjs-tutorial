@@ -124,6 +124,12 @@
             "title":"نکات مهم SSR و تابع getServerSideProps",
             "path":"getServerSidePropsPoints",
             "lessonLink":"https://sabzlearn.ir/lesson/45-27956/"
+           },
+           {
+            "id":121,
+            "title":"دسترسی به request و response در صفحات SSR",
+            "path":"RequestResponseInSSR",
+            "lessonLink":"https://sabzlearn.ir/lesson/45-27957/"
            }
 
         ]
