@@ -112,6 +112,12 @@
             "title":"SSR چیه و کِی استفاده میشه؟",
             "path":"SSRConsept",
             "lessonLink":"https://sabzlearn.ir/lesson/45-27954/"
+           },
+           {
+            "id":119,
+            "title":"استفاده از getServerSideProps",
+            "path":"getServerSidePropsUsing",
+            "lessonLink":"https://sabzlearn.ir/lesson/45-27955/"
            }
 
         ]
