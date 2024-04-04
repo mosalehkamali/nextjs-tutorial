@@ -118,6 +118,12 @@
             "title":"استفاده از getServerSideProps",
             "path":"getServerSidePropsUsing",
             "lessonLink":"https://sabzlearn.ir/lesson/45-27955/"
+           },
+           {
+            "id":120,
+            "title":"نکات مهم SSR و تابع getServerSideProps",
+            "path":"getServerSidePropsPoints",
+            "lessonLink":"https://sabzlearn.ir/lesson/45-27956/"
            }
 
         ]
