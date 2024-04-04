@@ -106,6 +106,12 @@
             "title":"پیاده سازی صفحات به شکل ISR",
             "path":"ISRTemplate",
             "lessonLink":"https://sabzlearn.ir/lesson/45-27945/"
+           },
+           {
+            "id":118,
+            "title":"SSR چیه و کِی استفاده میشه؟",
+            "path":"SSRConsept",
+            "lessonLink":"https://sabzlearn.ir/lesson/45-27954/"
            }
 
         ]
