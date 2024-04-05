@@ -23,11 +23,11 @@ function Season() {
         <h1 className='title'>
           {season.title}
         </h1>
-        <ul>
+        <ul className='season-ul'>
           {
             topics.map(
               topic =>
-                <li key={topic.id} >
+                <li className='season-li' key={topic.id} >
                   <Link href={router + "/" + topic.path}>{topic.title}</Link>
                 </li>
             )

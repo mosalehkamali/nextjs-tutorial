@@ -5,11 +5,11 @@ export default function Home() {
   return (
     <>
       <h1 className="title">Next-js tutorial</h1>
-      <ul>
+      <ul className="season-ul">
         {
           db.seasons.map(
             season =>
-              <li key={season.id} >
+              <li className="season-li" key={season.id} >
                 <Link href={season.path}>{season.title}</Link>
               </li>
           )

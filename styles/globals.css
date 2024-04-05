@@ -116,7 +116,7 @@ a {
   margin-top: 5rem;
 }
 
-ul{
+.season-ul{
   margin: 2rem;
   display: flex;
   flex-direction: column;
@@ -125,7 +125,7 @@ ul{
   align-items: center;
 }
 
-li{
+.season-li{
   margin: 1rem;
   font-size: 24px;
   background-color: #292E31;
