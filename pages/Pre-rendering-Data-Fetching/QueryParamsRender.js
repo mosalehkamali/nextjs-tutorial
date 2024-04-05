@@ -1,6 +1,7 @@
 import CodeBox from '@/components/module/CodeBox'
 import TopicHeader from '@/components/module/TopicHeader'
 import React from 'react'
+import Link from 'next/link'
 
 function QueryParamsRender() {
   return (

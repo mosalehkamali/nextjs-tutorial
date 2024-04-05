@@ -136,6 +136,12 @@
             "title":"رندر صفحه بر اساس Query Params",
             "path":"QueryParamsRender",
             "lessonLink":"https://sabzlearn.ir/lesson/45-27958/"
+           },
+           {
+            "id":123,
+            "title":"پیاده سازی SSR در Dynamic Routes",
+            "path":"SSRInDynamibic",
+            "lessonLink":"https://sabzlearn.ir/lesson/45-27959/"
            }
 
         ]
