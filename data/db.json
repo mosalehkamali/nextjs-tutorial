@@ -130,6 +130,12 @@
             "title":"دسترسی به request و response در صفحات SSR",
             "path":"RequestResponseInSSR",
             "lessonLink":"https://sabzlearn.ir/lesson/45-27957/"
+           },
+           {
+            "id":122,
+            "title":"رندر صفحه بر اساس Query Params",
+            "path":"QueryParamsRender",
+            "lessonLink":"https://sabzlearn.ir/lesson/45-27958/"
            }
 
         ]
