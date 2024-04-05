@@ -148,6 +148,12 @@
             "title":"بررسی صفحات SSR در نسخه Build پروژه",
             "path":"SSRInBuild",
             "lessonLink":"https://sabzlearn.ir/lesson/45-27960/"
+           },
+           {
+            "id":125,
+            "title":"نمایش صفحه 404 و Redirect کردن کاربر در صفحات SSR",
+            "path":"RedirectInSSR",
+            "lessonLink":"https://sabzlearn.ir/lesson/45-28007/"
            }
 
         ]
