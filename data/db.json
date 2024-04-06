@@ -154,6 +154,12 @@
             "title":"نمایش صفحه 404 و Redirect کردن کاربر در صفحات SSR",
             "path":"RedirectInSSR",
             "lessonLink":"https://sabzlearn.ir/lesson/45-28007/"
+           },
+           {
+            "id":125,
+            "title":"Client-side rendering در Next.js",
+            "path":"ClientSideRendering",
+            "lessonLink":"https://sabzlearn.ir/lesson/45-28008/"
            }
 
         ]
