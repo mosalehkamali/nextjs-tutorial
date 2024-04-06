@@ -4,11 +4,13 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
+    "server": "json-server --watch data/db.json -p 4000",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
   },
   "dependencies": {
+    "json-server": "^1.0.0-alpha.23",
     "next": "14.1.4",
     "prismjs": "^1.29.0",
     "react": "^18",
