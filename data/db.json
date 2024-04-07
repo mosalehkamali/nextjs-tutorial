@@ -160,6 +160,12 @@
             "title":"Client-side rendering در Next.js",
             "path":"ClientSideRendering",
             "lessonLink":"https://sabzlearn.ir/lesson/45-28008/"
+           },
+           {
+            "id":126,
+            "title":"استفاده از CSR در کنار Pre-rendering",
+            "path":"CSRInPreRenndering",
+            "lessonLink":"https://sabzlearn.ir/lesson/45-28011/"
            }
 
         ]
