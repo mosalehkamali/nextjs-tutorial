@@ -166,6 +166,12 @@
             "title":"استفاده از CSR در کنار Pre-rendering",
             "path":"CSRInPreRenndering",
             "lessonLink":"https://sabzlearn.ir/lesson/45-28011/"
+           },
+           {
+            "id":127,
+            "title":"استفاده از پکیج SWR",
+            "path":"SWRUse",
+            "lessonLink":"https://sabzlearn.ir/lesson/45-28013/"
            }
 
         ]
