@@ -186,6 +186,12 @@
             "title":"معرفی فصل و قابلیت Api Route",
             "path":"ApiRoureIntroduce",
             "lessonLink":"https://sabzlearn.ir/lesson/45-28073/"
+          },
+          {
+            "id":202,
+            "title":"توسعه اولین Api با متد Get",
+            "path":"DevelopGetApi",
+            "lessonLink":"https://sabzlearn.ir/lesson/45-28074/"
           }
         ]
         }
