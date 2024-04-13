@@ -1,15 +1,24 @@
+//Fake database
+const users = [
+    {
+        id: 1,
+        name: "John Doe",
+        email: "john@gmail.com"
+    },
+]
 
 function index(req, res) {
     switch (req.method) {
         case "GET": {
-            res.json("wellcome❤")
+            res.json("welcome❤")
             break;
         }
         case "POST": {
-            res.json("rejesterd👍")
+            users.push(req.body)
+            res.json({message:"registered👍", data:users})
             break;
         }
-        case "PUT": {
+        case "PUT": {//PATCH
             res.json("replaced🔁")
             break;
         }
@@ -17,8 +26,8 @@ function index(req, res) {
             res.json("removed❌")
             break;
         }
-        default:{
-            res.json("wellcome❤")
+        default: {
+            res.json("welcome❤")
         }
 
     }
