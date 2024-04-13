@@ -10,7 +10,7 @@ const users = [
 function index(req, res) {
     switch (req.method) {
         case "GET": {
-            res.json("welcome❤")
+            res.json(users)
             break;
         }
         case "POST": {
