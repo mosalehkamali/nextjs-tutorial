@@ -175,6 +175,19 @@
            }
 
         ]
+        },
+        {
+        "id":2,
+        "title":"توسعه بک‌اند با Next.js (قابلیت Api Route)",
+        "path":"ApiRoure",
+        "topics":[
+          {
+            "id":201,
+            "title":"معرفی فصل و قابلیت Api Route",
+            "path":"ApiRoureIntroduce",
+            "lessonLink":"https://sabzlearn.ir/lesson/45-28073/"
+          }
+        ]
         }
     ]
 }
