@@ -222,6 +222,12 @@
             "title":"آشنایی با Status Code های مختلف",
             "path":"StatusCodes",
             "lessonLink":"https://sabzlearn.ir/lesson/45-28079/"
+          },
+          {
+            "id":208,
+            "title":"استفاده از فایل json به عنوان دیتابیس با ماژول های fs و path",
+            "path":"UseJSONasDB",
+            "lessonLink":"https://sabzlearn.ir/lesson/45-28080/"
           }
         ]
         }

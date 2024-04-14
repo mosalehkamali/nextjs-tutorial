@@ -1,21 +1,21 @@
-//Fake database
-const users = [
-    {
-        id: 1,
-        name: "John Doe",
-        email: "john@gmail.com"
-    },
-]
+import fs from 'fs';
+import path from 'path';
+
 
 function index(req, res) {
     switch (req.method) {
         case "GET": {
-            res.json(users)
+            
+            const dbPath = path.join(process.cwd(), "data", "users.json");
+            const data = fs.readFileSync(dbPath)
+            const  jsonData = JSON.parse(data);
+
+            res.json(jsonData)
             break;
         }
         case "POST": {
             users.push(req.body)
-            res.json({message:"registered👍", data:users})
+            res.json({ message: "registered👍", data: users })
             break;
         }
         case "PUT": {//PATCH
