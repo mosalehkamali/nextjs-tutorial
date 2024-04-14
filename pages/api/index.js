@@ -25,14 +25,14 @@ function index(req, res) {
                 email
             })//اطلاعات فرستاده شده را در آرایه دیتا بیس ذخیره میکنیم
 
-    
+
             const err = fs.writeFileSync(dbPath, JSON.stringify(jsonData))//دیتای جدید را در فایل دیتابیس ذخیره میکنیم
 
-            if(err){
+            if (err) {
+                res.json(err)
+            } else {
 
-            }else{
-
-                res.status(201).json({ message: "registered👍", jsonData})
+                res.status(201).json({ message: "registered👍", jsonData })
             }
             break;
         }

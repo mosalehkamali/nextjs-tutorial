@@ -1,1 +1,14 @@
-{"users":[{"id":1,"name":"John Doe","email":"john@gmail.com"},{"id":"18310e48-87a8-4ae9-af62-26aaf546a2d8","name":"mmad","email":"mmad@gmail.com"},{"id":"17611ccc-23c2-4711-8b4f-b5b1341e5fcd","name":"mmad","email":"mmad@gmail.com"},{"id":"35de61e0-ba16-45b2-b7b1-1e22cafe6d7b","name":"mmad","email":"mmad@gmail.com"},{"id":"4d48232d-2369-49c9-b1b1-efc4dd51043d","name":"mmad","email":"mmad@gmail.com"}]}
+{
+    "users": [
+        {
+            "id": 1,
+            "name": "John Doe",
+            "email": "john@gmail.com"
+        },
+        {
+            "id": "18310e48-87a8-4ae9-af62-26aaf546a2d8",
+            "name": "mmad",
+            "email": "mmad@gmail.com"
+        }
+    ]
+}

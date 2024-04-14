@@ -2,11 +2,11 @@ import TopicContent from '@/components/module/TopicContent'
 import React from 'react'
 
 function ApiForRegister() {
-  return (
-    <>
-     <TopicContent
-     text={'برای ذخیره اطلاعات در فایل دیتابیس از متد fs.writeFile() استفاده میکنیم'}
-     code={`
+    return (
+        <>
+            <TopicContent
+                text={'برای ذخیره اطلاعات در فایل دیتابیس از متد fs.writeFile() استفاده میکنیم'}
+                code={`
      import fs from 'fs';
 import path from 'path';
 
@@ -35,13 +35,18 @@ function index(req, res) {
             })//اطلاعات فرستاده شده را در آرایه دیتا بیس ذخیره میکنیم
             fs.writeFile(dbPath, JSON.stringify(jsonData))//دیتای جدید را در فایل دیتابیس ذخیره میکنیم
 
+            if(err){
+                res.json(err)
+        }else{
+
             res.status(201).json({ message: "registered👍", jsonData})
-            break;
         }
+            break;
+        }}
      `}
-     ></TopicContent> 
-    </>
-  )
+            ></TopicContent>
+        </>
+    )
 }
 
 export default ApiForRegister
