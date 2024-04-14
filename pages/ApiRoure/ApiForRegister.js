@@ -1,4 +1,13 @@
-import fs from 'fs';
+import TopicContent from '@/components/module/TopicContent'
+import React from 'react'
+
+function ApiForRegister() {
+  return (
+    <>
+     <TopicContent
+     text={'برای ذخیره اطلاعات در فایل دیتابیس از متد fs.writeFile() استفاده میکنیم'}
+     code={`
+     import fs from 'fs';
 import path from 'path';
 
 
@@ -24,31 +33,15 @@ function index(req, res) {
                 name,
                 email
             })//اطلاعات فرستاده شده را در آرایه دیتا بیس ذخیره میکنیم
+            fs.writeFile(dbPath, JSON.stringify(jsonData))//دیتای جدید را در فایل دیتابیس ذخیره میکنیم
 
-    
-            const err = fs.writeFileSync(dbPath, JSON.stringify(jsonData))//دیتای جدید را در فایل دیتابیس ذخیره میکنیم
-
-            if(err){
-
-            }else{
-
-                res.status(201).json({ message: "registered👍", jsonData})
-            }
+            res.status(201).json({ message: "registered👍", jsonData})
             break;
         }
-        case "PUT": {//PATCH
-            res.json("replaced🔁")
-            break;
-        }
-        case "DELETE": {
-            res.json("removed❌")
-            break;
-        }
-        default: {
-            res.json("welcome❤")
-        }
-
-    }
+     `}
+     ></TopicContent> 
+    </>
+  )
 }
 
-export default index
+export default ApiForRegister

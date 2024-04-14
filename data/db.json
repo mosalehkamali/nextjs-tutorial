@@ -228,6 +228,12 @@
             "title":"استفاده از فایل json به عنوان دیتابیس با ماژول های fs و path",
             "path":"UseJSONasDB",
             "lessonLink":"https://sabzlearn.ir/lesson/45-28080/"
+          },
+          {
+            "id":209,
+            "title":"توسعه Api برای ثبت‌نام کاربر جدید در سایت",
+            "path":"ApiForRegister",
+            "lessonLink":"https://sabzlearn.ir/lesson/45-28081/"
           }
         ]
         }
