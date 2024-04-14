@@ -234,6 +234,12 @@
             "title":"توسعه Api برای ثبت‌نام کاربر جدید در سایت",
             "path":"ApiForRegister",
             "lessonLink":"https://sabzlearn.ir/lesson/45-28081/"
+          },
+          {
+            "id":210,
+            "title":"توسعه Api حذف کاربر با متد Delete",
+            "path":"ApiForDelete",
+            "lessonLink":"https://sabzlearn.ir/lesson/45-28082/"
           }
         ]
         }

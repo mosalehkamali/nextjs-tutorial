@@ -1,11 +1,6 @@
 {
     "users": [
         {
-            "id": 1,
-            "name": "John Doe",
-            "email": "john@gmail.com"
-        },
-        {
             "id": "18310e48-87a8-4ae9-af62-26aaf546a2d8",
             "name": "mmad",
             "email": "mmad@gmail.com"

@@ -40,10 +40,6 @@ function index(req, res) {
             res.json("replaced🔁")
             break;
         }
-        case "DELETE": {
-            res.json("removed❌")
-            break;
-        }
         default: {
             res.json("welcome❤")
         }
