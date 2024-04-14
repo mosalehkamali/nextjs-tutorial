@@ -210,6 +210,12 @@
             "title":"ارسال رکوئست به Api از طریق فرانت‌اند",
             "path":"SendReqToApi",
             "lessonLink":"https://sabzlearn.ir/lesson/45-28077/"
+          },
+          {
+            "id":206,
+            "title":"توسعه Dynamic Api",
+            "path":"DynamicApi",
+            "lessonLink":"https://sabzlearn.ir/lesson/45-28078/"
           }
         ]
         }
