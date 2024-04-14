@@ -216,6 +216,12 @@
             "title":"توسعه Dynamic Api",
             "path":"DynamicApi",
             "lessonLink":"https://sabzlearn.ir/lesson/45-28078/"
+          },
+          {
+            "id":207,
+            "title":"آشنایی با Status Code های مختلف",
+            "path":"StatusCodes",
+            "lessonLink":"https://sabzlearn.ir/lesson/45-28079/"
           }
         ]
         }
