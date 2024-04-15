@@ -1,8 +1,13 @@
 import React, { useState } from 'react'
 
-function Register() {
+const fs = require('fs')
+const path = require('path')
+
+function Register({data}) {
   const [name, setName] = useState('')
   const [email, setEmail] = useState('')
+
+  console.log(data);
 
   async function registerHandler(event) {
     event.preventDefault()
@@ -35,9 +40,24 @@ function Register() {
         <br />
         <button onClick={registerHandler} style={{ margin: "10px" }} >Register</button>
       </form>
+      <ul dir='ltr'>
+        {data.map(user=>(<li key={user.id}>{user.name}</li>))}
+      </ul>
 
     </>
   )
+}
+
+export async function getStaticProps(contaxt) {
+
+  const dbPath = path.join(process.cwd(), "data", "users.json");//process.cwd() روتی که پروژه در آن اجرا میشود را برمیگردانند
+  const data = fs.readFileSync(dbPath)//بامتد readFileSync(dbPath) فایلی که باید خوانده شود را دریافت میکند
+  const jsonData = JSON.parse(data);//داده ها را به جیسون پارس تبدیل میکنیم تا قابل خواندن شوند
+  return{
+    props:{
+      data:jsonData.users //داده ها را به کامپوننت ارسال میکنیم
+    }
+  }
 }
 
 export default Register
