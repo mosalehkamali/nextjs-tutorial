@@ -32,7 +32,7 @@ function index(req, res) {
                 res.json(err)
             } else {
 
-                res.status(201).json({ message: "registered👍", jsonData })
+                res.status(201).json({ message: true, data: { ...jsonData } })
             }
             break;
         }
