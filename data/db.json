@@ -246,6 +246,12 @@
             "title":"توسعه Api ویرایش کاربر با متد های Put و Patch",
             "path":"ApiForPut",
             "lessonLink":"https://sabzlearn.ir/lesson/45-28083/"
+          },
+          {
+            "id":212,
+            "title":"استفاده از Slug در توسعه Api",
+            "path":"SlugInApi",
+            "lessonLink":"https://sabzlearn.ir/lesson/45-28086/"
           }
         ]
         }
