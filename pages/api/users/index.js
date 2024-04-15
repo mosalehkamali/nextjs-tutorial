@@ -16,6 +16,10 @@ function index(req, res) {
         case "POST": {
             const { name, email } = req.body //اطلاعات فرستاده شده در باردی را میگیریم
             //آدرس دیتابیس را ایجاد میکنیم
+            if( !name.trim() || !email.trim()){
+                res.status(422).json({message: "Data is not valid ❌"})
+            }
+
             const dbPath = path.join(process.cwd(), "data", "users.json");//process.cwd() روتی که پروژه در آن اجرا میشود را برمیگردانند
             const data = fs.readFileSync(dbPath)//بامتد readFileSync(dbPath) فایلی که باید خوانده شود را دریافت میکند
             const jsonData = JSON.parse(data);//داده ها را به جیسون پارس تبدیل میکنیم تا قابل خواندن شوند
