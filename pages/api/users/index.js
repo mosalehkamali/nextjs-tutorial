@@ -36,10 +36,6 @@ function index(req, res) {
             }
             break;
         }
-        case "PUT": {//PATCH
-            res.json("replaced🔁")
-            break;
-        }
         default: {
             res.json("welcome❤")
         }

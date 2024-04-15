@@ -240,6 +240,12 @@
             "title":"توسعه Api حذف کاربر با متد Delete",
             "path":"ApiForDelete",
             "lessonLink":"https://sabzlearn.ir/lesson/45-28082/"
+          },
+          {
+            "id":211,
+            "title":"توسعه Api ویرایش کاربر با متد های Put و Patch",
+            "path":"ApiForPut",
+            "lessonLink":"https://sabzlearn.ir/lesson/45-28083/"
           }
         ]
         }
