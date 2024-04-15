@@ -252,6 +252,12 @@
             "title":"استفاده از Slug در توسعه Api",
             "path":"SlugInApi",
             "lessonLink":"https://sabzlearn.ir/lesson/45-28086/"
+          },
+          {
+            "id":213,
+            "title":"نحوه استفاده از Slug برای هوم‌پیج Api",
+            "path":"SlugInApiHomePage",
+            "lessonLink":"https://sabzlearn.ir/lesson/45-28087/"
           }
         ]
         }
