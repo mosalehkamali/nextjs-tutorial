@@ -285,8 +285,8 @@
             "title":"ایجاد دیتابیس با Mongoose",
             "path":"UseMongoose",
             "lessonLink":"https://sabzlearn.ir/lesson/45-28110/",
-            "text":"",
-            "link":"",
+            "text":"بعد از نصب دیتابیس مونگو دی بی با نصب کتابخانه mongoose  میتوانیم به دیتابیس خودمون متصل بشیم ",
+            "link":"https://www.npmjs.com/package/mongoose",
             "code":""
           }
         ]

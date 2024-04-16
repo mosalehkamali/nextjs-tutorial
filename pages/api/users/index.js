@@ -1,8 +1,14 @@
 import fs from 'fs';
 import path from 'path';
 
+const mongoose = require('mongoose')
+
 
 function index(req, res) {
+    mongoose.connect('mongodb://127.0.0.1:27017/users')//users is the database name
+        .then(() => console.log('Connected  to database successfuly'))
+        .catch((err) => console.log('Something went wrong', err));
+
     switch (req.method) {
         case "GET": {
 
@@ -16,8 +22,8 @@ function index(req, res) {
         case "POST": {
             const { name, email } = req.body //اطلاعات فرستاده شده در باردی را میگیریم
             //آدرس دیتابیس را ایجاد میکنیم
-            if( !name.trim() || !email.trim()){
-                res.status(422).json({message: "Data is not valid ❌"})
+            if (!name.trim() || !email.trim()) {
+                res.status(422).json({ message: "Data is not valid ❌" })
             }
 
             const dbPath = path.join(process.cwd(), "data", "users.json");//process.cwd() روتی که پروژه در آن اجرا میشود را برمیگردانند
