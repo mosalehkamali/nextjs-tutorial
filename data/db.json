@@ -275,7 +275,11 @@
             "id":301,
             "title":"دیتابیس چیست؟",
             "path":"DataBaseDisc",
-            "lessonLink":"https://sabzlearn.ir/lesson/45-28108/"
+            "lessonLink":"https://sabzlearn.ir/lesson/45-28108/",
+            "text":"این یک متن تستی است",
+            "link":"http://nextjs.org",
+            "code":"console.log('Hello World')"
+
           }
         ]
         }

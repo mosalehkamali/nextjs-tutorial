@@ -16,7 +16,7 @@ export default function index({season}) {
         season.topics.map(
           topic =>
             <li className='season-li' key={topic.id} >
-              <Link href={topic.path}>{topic.title}</Link>
+              <Link href={season.path+'/'+topic.path}>{topic.title}</Link>
             </li>
         )
       }
@@ -27,7 +27,7 @@ export default function index({season}) {
 
 export async function getStaticProps(context) {
   
-  const rout = context.params.season;
+  const route = context.params.season;
   
   const dataPath = path.join(process.cwd(), 'data', 'db.json')
   
@@ -35,7 +35,7 @@ export async function getStaticProps(context) {
   
   const seasons = JSON.parse(data).seasons
   
-  const season = seasons.find((item) => item.path === rout)
+  const season = seasons.find((item) => item.path === route)
   return {
     props: {
       season,
