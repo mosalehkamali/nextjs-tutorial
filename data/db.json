@@ -266,6 +266,18 @@
             "lessonLink":"https://sabzlearn.ir/lesson/45-28088/"
           }
         ]
+        },
+        {
+          "id":3,
+          "title":"کار با دیتابیس MongoDB در Next.js",
+          "path":"MongoDB",
+          "topics":[ {
+            "id":301,
+            "title":"دیتابیس چیست؟",
+            "path":"DataBaseDisc",
+            "lessonLink":"https://sabzlearn.ir/lesson/45-28108/"
+          }
+        ]
         }
     ]
 }
