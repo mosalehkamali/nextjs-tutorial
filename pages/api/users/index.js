@@ -1,14 +1,10 @@
 import fs from 'fs';
 import path from 'path';
 
-const mongoose = require('mongoose')
-
+import connectToDB from '@/utils/users';
 
 function index(req, res) {
-    mongoose.connect('mongodb://127.0.0.1:27017/users')//users is the database name
-        .then(() => console.log('Connected  to database successfuly'))
-        .catch((err) => console.log('Something went wrong', err));
-
+    connectToDB()
     switch (req.method) {
         case "GET": {
 
