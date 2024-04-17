@@ -7,7 +7,6 @@ function Register({data}) {
   const [name, setName] = useState('')
   const [email, setEmail] = useState('')
 
-  console.log(data);
 
   async function registerHandler(event) {
     event.preventDefault()

@@ -306,6 +306,15 @@
           "text": "برای ساخت کالاکشن در دیتابیس باید برای هر کالاکشن یه فایل کدل که فایل جاوااسکریپت هست بسازیم در فایل مدل ما برای فیلد های داکیومنت های کالاکشن اسکیما میسازیم که در آن ویژگی های هر فیلد را تعیین میکنیم مثل تایپ و ریکوایرد بودن آن فیلد . فیلد id  را خود مونگودیبی برای داکیومنت ها درست میکند",
           "link": "https://www.npmjs.com/package/mongoose",
           "code": "const schema = mongoose.Schema({ name: {type: String,required: true},email: {type: String,required: true,}})"
+        },
+        {
+          "id": 305,
+          "title": "ایجاد دیتا در دیتابیس",
+          "path": "SchemaAndModel",
+          "lessonLink": "https://sabzlearn.ir/lesson/45-28113/",
+          "text": "برای ساخت دیتا در دیتا بیس باید مدل آن کالاکشنی که میخواهیم دیتا در آن ساخته شود را ایمپرت کنیم سپس با پراپرتی create داکیومنتی که میخواهیم را در آن میسازیم",
+          "link": "https://www.npmjs.com/package/mongoose",
+          "code": "const user = await usersModel.create({ name, email })"
         }
       ]
     }

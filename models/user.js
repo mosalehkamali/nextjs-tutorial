@@ -1,6 +1,8 @@
 const mongoose = require('mongoose')
 
-const schema = mongoose.Schema({ //برای ساخت کالاکشن  برای هر کدام از فیلد های داخل  اططلاعاتی ذخیره کنیم
+mongoose.connection.models = {};// Clear the Mongoose cache
+
+const schema = new mongoose.Schema({ //برای ساخت کالاکشن  برای هر کدام از فیلد های داخل  اططلاعاتی ذخیره کنیم
     name: {
         type: String,
         required: true
@@ -11,6 +13,6 @@ const schema = mongoose.Schema({ //برای ساخت کالاکشن  برای ه
     }
 })
 
-const model = mongoose.model("User", schema)//نام واسکیمای مدل را میدهیم تا ساخته شود
+const model = mongoose.model('costomer', schema)//نام واسکیمای مدل را میدهیم تا ساخته شود
 
 export default model;
