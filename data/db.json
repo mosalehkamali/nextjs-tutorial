@@ -1,304 +1,313 @@
 {
-    "seasons":[
+  "seasons": [
+    {
+      "id": 1,
+      "title": "کانسپت های مربوط به Pre-rendering و Data Fetching",
+      "path": "Pre-rendering-Data-Fetching",
+      "topics": [
         {
-        "id":1,
-        "title":"کانسپت های مربوط به Pre-rendering و Data Fetching",
-        "path":"Pre-rendering-Data-Fetching",
-        "topics":[
-           {
-             "id":101,
-             "title":"مفهوم Hydration در Pre-rendering",
-             "path":"hydration",
-             "lessonLink":"https://sabzlearn.ir/lesson/45-27885/"
-           },
-           {
-             "id":102,
-             "title":"SSR و SSG چطور لود میشن و چه تفاوت هایی دارن؟",
-             "path":"SSRandSSG",
-             "lessonLink":"https://sabzlearn.ir/lesson/45-27886/"
-           },
-           {
-             "id":103,
-             "title":"Data Fetching در Next.js چطور و کجا انجام میشه؟",
-             "path":"DataFetchingInNextjs",
-             "lessonLink":"https://sabzlearn.ir/lesson/45-27887/"
-           },
-           {
-             "id":104,
-             "title":"استفاده از getStaticProps بدون Data",
-             "path":"getStaticPropsWithoutData",
-             "lessonLink":"https://sabzlearn.ir/lesson/45-27931/"
-           },
-           {
-            "id":105,
-            "title":"استفاده از data-fetching در SSG",
-            "path":"DataFetchingInSSG",
-            "lessonLink":"https://sabzlearn.ir/lesson/45-27932/"
-           },
-           {
-            "id":106,
-            "title":"پیاده سازی به صورت SSG در روت های Dynamic",
-            "path":"SSGinDynamicRout",
-            "lessonLink":"https://sabzlearn.ir/lesson/45-27934/"
-           },
-           {
-            "id":107,
-            "title":"استفاده از getStaticPaths",
-            "path":"UseGetStaticPaths",
-            "lessonLink":"https://sabzlearn.ir/lesson/45-27935/"
-           },
-           {
-            "id":108,
-            "title":"ارسال paths به صورت Dynamic",
-            "path":"DynamicPathsSend",
-            "lessonLink":"https://sabzlearn.ir/lesson/45-27936/"
-           },
-           {
-            "id":109,
-            "title":"بررسی SSG در نسخه Build شده پروژه",
-            "path":"SSGBuilding",
-            "lessonLink":"https://sabzlearn.ir/lesson/45-27937/"
-           },
-           {
-            "id":110,
-            "title":"بررسی قابلیت preFetch کامپوننت Link",
-            "path":"PreFetchInLink",
-            "lessonLink":"https://sabzlearn.ir/lesson/45-27938/"
-           },
-           {
-            "id":111,
-            "title":"بررسی false بودن Fallback",
-            "path":"FallbackFalse",
-            "lessonLink":"https://sabzlearn.ir/lesson/45-27939/"
-           },
-           {
-            "id":112,
-            "title":"بررسی true بودن Fallback",
-            "path":"FallbackTrue",
-            "lessonLink":"https://sabzlearn.ir/lesson/45-27940/"
-           },
-           {
-            "id":113,
-            "title":"نمایش صفحه 404 در getStaticProps",
-            "path":"GetStaticProps404",
-            "lessonLink":"https://sabzlearn.ir/lesson/45-27941/"
-           },
-           {
-            "id":114,
-            "title":"ریدایرکت کردن کاربر به صفحه دلخواه در getStaticProps",
-            "path":"GetStaticPropsRedirect",
-            "lessonLink":"https://sabzlearn.ir/lesson/45-27942/"
-           },
-           {
-            "id":115,
-            "title":"بررسی blocking بودن fallback",
-            "path":"FallbackBlocking",
-            "lessonLink":"https://sabzlearn.ir/lesson/45-27943/"
-           },
-           {
-            "id":116,
-            "title":"مفهوم ISR",
-            "path":"ISRConcept",
-            "lessonLink":"https://sabzlearn.ir/lesson/45-27944/"
-           },
-           {
-            "id":117,
-            "title":"پیاده سازی صفحات به شکل ISR",
-            "path":"ISRTemplate",
-            "lessonLink":"https://sabzlearn.ir/lesson/45-27945/"
-           },
-           {
-            "id":118,
-            "title":"SSR چیه و کِی استفاده میشه؟",
-            "path":"SSRConsept",
-            "lessonLink":"https://sabzlearn.ir/lesson/45-27954/"
-           },
-           {
-            "id":119,
-            "title":"استفاده از getServerSideProps",
-            "path":"getServerSidePropsUsing",
-            "lessonLink":"https://sabzlearn.ir/lesson/45-27955/"
-           },
-           {
-            "id":120,
-            "title":"نکات مهم SSR و تابع getServerSideProps",
-            "path":"getServerSidePropsPoints",
-            "lessonLink":"https://sabzlearn.ir/lesson/45-27956/"
-           },
-           {
-            "id":121,
-            "title":"دسترسی به request و response در صفحات SSR",
-            "path":"RequestResponseInSSR",
-            "lessonLink":"https://sabzlearn.ir/lesson/45-27957/"
-           },
-           {
-            "id":122,
-            "title":"رندر صفحه بر اساس Query Params",
-            "path":"QueryParamsRender",
-            "lessonLink":"https://sabzlearn.ir/lesson/45-27958/"
-           },
-           {
-            "id":123,
-            "title":"پیاده سازی SSR در Dynamic Routes",
-            "path":"SSRInDynamibic",
-            "lessonLink":"https://sabzlearn.ir/lesson/45-27959/"
-           },
-           {
-            "id":124,
-            "title":"بررسی صفحات SSR در نسخه Build پروژه",
-            "path":"SSRInBuild",
-            "lessonLink":"https://sabzlearn.ir/lesson/45-27960/"
-           },
-           {
-            "id":125,
-            "title":"نمایش صفحه 404 و Redirect کردن کاربر در صفحات SSR",
-            "path":"RedirectInSSR",
-            "lessonLink":"https://sabzlearn.ir/lesson/45-28007/"
-           },
-           {
-            "id":125,
-            "title":"Client-side rendering در Next.js",
-            "path":"ClientSideRendering",
-            "lessonLink":"https://sabzlearn.ir/lesson/45-28008/"
-           },
-           {
-            "id":126,
-            "title":"استفاده از CSR در کنار Pre-rendering",
-            "path":"CSRInPreRenndering",
-            "lessonLink":"https://sabzlearn.ir/lesson/45-28011/"
-           },
-           {
-            "id":127,
-            "title":"استفاده از پکیج SWR",
-            "path":"SWRUse",
-            "lessonLink":"https://sabzlearn.ir/lesson/45-28013/"
-           }
-
-        ]
+          "id": 101,
+          "title": "مفهوم Hydration در Pre-rendering",
+          "path": "hydration",
+          "lessonLink": "https://sabzlearn.ir/lesson/45-27885/"
         },
         {
-        "id":2,
-        "title":"توسعه بک‌اند با Next.js (قابلیت Api Route)",
-        "path":"ApiRoure",
-        "topics":[
-          {
-            "id":201,
-            "title":"معرفی فصل و قابلیت Api Route",
-            "path":"ApiRoureIntroduce",
-            "lessonLink":"https://sabzlearn.ir/lesson/45-28073/"
-          },
-          {
-            "id":202,
-            "title":"توسعه اولین Api با متد Get",
-            "path":"DevelopGetApi",
-            "lessonLink":"https://sabzlearn.ir/lesson/45-28074/"
-          },
-          {
-            "id":203,
-            "title":"نحوه دسترسی به متد Request",
-            "path":"AccessRequest",
-            "lessonLink":"https://sabzlearn.ir/lesson/45-28075/"
-          },
-          {
-            "id":204,
-            "title":"دسترسی به بادی Request",
-            "path":"AccessRequestBody",
-            "lessonLink":"https://sabzlearn.ir/lesson/45-28076/"
-          },
-          {
-            "id":205,
-            "title":"ارسال رکوئست به Api از طریق فرانت‌اند",
-            "path":"SendReqToApi",
-            "lessonLink":"https://sabzlearn.ir/lesson/45-28077/"
-          },
-          {
-            "id":206,
-            "title":"توسعه Dynamic Api",
-            "path":"DynamicApi",
-            "lessonLink":"https://sabzlearn.ir/lesson/45-28078/"
-          },
-          {
-            "id":207,
-            "title":"آشنایی با Status Code های مختلف",
-            "path":"StatusCodes",
-            "lessonLink":"https://sabzlearn.ir/lesson/45-28079/"
-          },
-          {
-            "id":208,
-            "title":"استفاده از فایل json به عنوان دیتابیس با ماژول های fs و path",
-            "path":"UseJSONasDB",
-            "lessonLink":"https://sabzlearn.ir/lesson/45-28080/"
-          },
-          {
-            "id":209,
-            "title":"توسعه Api برای ثبت‌نام کاربر جدید در سایت",
-            "path":"ApiForRegister",
-            "lessonLink":"https://sabzlearn.ir/lesson/45-28081/"
-          },
-          {
-            "id":210,
-            "title":"توسعه Api حذف کاربر با متد Delete",
-            "path":"ApiForDelete",
-            "lessonLink":"https://sabzlearn.ir/lesson/45-28082/"
-          },
-          {
-            "id":211,
-            "title":"توسعه Api ویرایش کاربر با متد های Put و Patch",
-            "path":"ApiForPut",
-            "lessonLink":"https://sabzlearn.ir/lesson/45-28083/"
-          },
-          {
-            "id":212,
-            "title":"استفاده از Slug در توسعه Api",
-            "path":"SlugInApi",
-            "lessonLink":"https://sabzlearn.ir/lesson/45-28086/"
-          },
-          {
-            "id":213,
-            "title":"نحوه استفاده از Slug برای هوم‌پیج Api",
-            "path":"SlugInApiHomePage",
-            "lessonLink":"https://sabzlearn.ir/lesson/45-28087/"
-          },
-          {
-            "id":214,
-            "title":"میشه تو pre-render از Api Route استفاده کرد؟",
-            "path":"SlugInPreRendering",
-            "lessonLink":"https://sabzlearn.ir/lesson/45-28088/"
-          }
-        ]
+          "id": 102,
+          "title": "SSR و SSG چطور لود میشن و چه تفاوت هایی دارن؟",
+          "path": "SSRandSSG",
+          "lessonLink": "https://sabzlearn.ir/lesson/45-27886/"
         },
         {
-          "id":3,
-          "title":"کار با دیتابیس MongoDB در Next.js",
-          "path":"MongoDB",
-          "topics":[ {
-            "id":301,
-            "title":"دیتابیس چیست؟",
-            "path":"DataBaseDisc",
-            "lessonLink":"https://sabzlearn.ir/lesson/45-28108/",
-            "text":"دیتابیس محلی است که ما در آن اطلاعات مختلف را ذخیره میکنیم .دیتابیس یک CLI یا Command Line Interface است که ما میتوانیم بجای کامند از GUI ها استفاده کنیم در دیتابیس داده ها در کالاکشن و در کالاکشن ها در داکیومنت ها و نهایتا در فیلدها ذخیر میشوند.",
-            "link":"",
-            "code":""
-          },
-          {
-            "id":302,
-            "title":"ایجاد دیتابیس با Mongoose",
-            "path":"UseMongoose",
-            "lessonLink":"https://sabzlearn.ir/lesson/45-28110/",
-            "text":"بعد از نصب دیتابیس مونگو دی بی با نصب کتابخانه mongoose  میتوانیم به دیتابیس خودمون متصل بشیم ",
-            "link":"https://www.npmjs.com/package/mongoose",
-            "code":"mongoose.connect('mongodb://127.0.0.1:27017/users')//users is the database name"
-          },
-          {
-            "id":303,
-            "title":"بررسی connection های ایجاد شده",
-            "path":"CheckMongooseConnection",
-            "lessonLink":"https://sabzlearn.ir/lesson/45-28111/",
-            "text":"برای جلوگیری از اینکه با هر بار ریکوئست مونگوز دوباره به دیتابیس متصل شود کد های اتصال به دیتابیس را در پوشه ای جدا مثلا یوتیلز قرار میدهیم و در آن شرطی قرار میدهیم که اگر اتصال از قبل برقرار بود دیگر اتصال مجدد برقرار نکند.",
-            "link":"https://www.npmjs.com/package/mongoose",
-            "code":"try{ if (mongoose.connections[0].readyState) {return false;}}"
-          }
-        ]
+          "id": 103,
+          "title": "Data Fetching در Next.js چطور و کجا انجام میشه؟",
+          "path": "DataFetchingInNextjs",
+          "lessonLink": "https://sabzlearn.ir/lesson/45-27887/"
+        },
+        {
+          "id": 104,
+          "title": "استفاده از getStaticProps بدون Data",
+          "path": "getStaticPropsWithoutData",
+          "lessonLink": "https://sabzlearn.ir/lesson/45-27931/"
+        },
+        {
+          "id": 105,
+          "title": "استفاده از data-fetching در SSG",
+          "path": "DataFetchingInSSG",
+          "lessonLink": "https://sabzlearn.ir/lesson/45-27932/"
+        },
+        {
+          "id": 106,
+          "title": "پیاده سازی به صورت SSG در روت های Dynamic",
+          "path": "SSGinDynamicRout",
+          "lessonLink": "https://sabzlearn.ir/lesson/45-27934/"
+        },
+        {
+          "id": 107,
+          "title": "استفاده از getStaticPaths",
+          "path": "UseGetStaticPaths",
+          "lessonLink": "https://sabzlearn.ir/lesson/45-27935/"
+        },
+        {
+          "id": 108,
+          "title": "ارسال paths به صورت Dynamic",
+          "path": "DynamicPathsSend",
+          "lessonLink": "https://sabzlearn.ir/lesson/45-27936/"
+        },
+        {
+          "id": 109,
+          "title": "بررسی SSG در نسخه Build شده پروژه",
+          "path": "SSGBuilding",
+          "lessonLink": "https://sabzlearn.ir/lesson/45-27937/"
+        },
+        {
+          "id": 110,
+          "title": "بررسی قابلیت preFetch کامپوننت Link",
+          "path": "PreFetchInLink",
+          "lessonLink": "https://sabzlearn.ir/lesson/45-27938/"
+        },
+        {
+          "id": 111,
+          "title": "بررسی false بودن Fallback",
+          "path": "FallbackFalse",
+          "lessonLink": "https://sabzlearn.ir/lesson/45-27939/"
+        },
+        {
+          "id": 112,
+          "title": "بررسی true بودن Fallback",
+          "path": "FallbackTrue",
+          "lessonLink": "https://sabzlearn.ir/lesson/45-27940/"
+        },
+        {
+          "id": 113,
+          "title": "نمایش صفحه 404 در getStaticProps",
+          "path": "GetStaticProps404",
+          "lessonLink": "https://sabzlearn.ir/lesson/45-27941/"
+        },
+        {
+          "id": 114,
+          "title": "ریدایرکت کردن کاربر به صفحه دلخواه در getStaticProps",
+          "path": "GetStaticPropsRedirect",
+          "lessonLink": "https://sabzlearn.ir/lesson/45-27942/"
+        },
+        {
+          "id": 115,
+          "title": "بررسی blocking بودن fallback",
+          "path": "FallbackBlocking",
+          "lessonLink": "https://sabzlearn.ir/lesson/45-27943/"
+        },
+        {
+          "id": 116,
+          "title": "مفهوم ISR",
+          "path": "ISRConcept",
+          "lessonLink": "https://sabzlearn.ir/lesson/45-27944/"
+        },
+        {
+          "id": 117,
+          "title": "پیاده سازی صفحات به شکل ISR",
+          "path": "ISRTemplate",
+          "lessonLink": "https://sabzlearn.ir/lesson/45-27945/"
+        },
+        {
+          "id": 118,
+          "title": "SSR چیه و کِی استفاده میشه؟",
+          "path": "SSRConsept",
+          "lessonLink": "https://sabzlearn.ir/lesson/45-27954/"
+        },
+        {
+          "id": 119,
+          "title": "استفاده از getServerSideProps",
+          "path": "getServerSidePropsUsing",
+          "lessonLink": "https://sabzlearn.ir/lesson/45-27955/"
+        },
+        {
+          "id": 120,
+          "title": "نکات مهم SSR و تابع getServerSideProps",
+          "path": "getServerSidePropsPoints",
+          "lessonLink": "https://sabzlearn.ir/lesson/45-27956/"
+        },
+        {
+          "id": 121,
+          "title": "دسترسی به request و response در صفحات SSR",
+          "path": "RequestResponseInSSR",
+          "lessonLink": "https://sabzlearn.ir/lesson/45-27957/"
+        },
+        {
+          "id": 122,
+          "title": "رندر صفحه بر اساس Query Params",
+          "path": "QueryParamsRender",
+          "lessonLink": "https://sabzlearn.ir/lesson/45-27958/"
+        },
+        {
+          "id": 123,
+          "title": "پیاده سازی SSR در Dynamic Routes",
+          "path": "SSRInDynamibic",
+          "lessonLink": "https://sabzlearn.ir/lesson/45-27959/"
+        },
+        {
+          "id": 124,
+          "title": "بررسی صفحات SSR در نسخه Build پروژه",
+          "path": "SSRInBuild",
+          "lessonLink": "https://sabzlearn.ir/lesson/45-27960/"
+        },
+        {
+          "id": 125,
+          "title": "نمایش صفحه 404 و Redirect کردن کاربر در صفحات SSR",
+          "path": "RedirectInSSR",
+          "lessonLink": "https://sabzlearn.ir/lesson/45-28007/"
+        },
+        {
+          "id": 125,
+          "title": "Client-side rendering در Next.js",
+          "path": "ClientSideRendering",
+          "lessonLink": "https://sabzlearn.ir/lesson/45-28008/"
+        },
+        {
+          "id": 126,
+          "title": "استفاده از CSR در کنار Pre-rendering",
+          "path": "CSRInPreRenndering",
+          "lessonLink": "https://sabzlearn.ir/lesson/45-28011/"
+        },
+        {
+          "id": 127,
+          "title": "استفاده از پکیج SWR",
+          "path": "SWRUse",
+          "lessonLink": "https://sabzlearn.ir/lesson/45-28013/"
         }
-    ]
+      ]
+    },
+    {
+      "id": 2,
+      "title": "توسعه بک‌اند با Next.js (قابلیت Api Route)",
+      "path": "ApiRoure",
+      "topics": [
+        {
+          "id": 201,
+          "title": "معرفی فصل و قابلیت Api Route",
+          "path": "ApiRoureIntroduce",
+          "lessonLink": "https://sabzlearn.ir/lesson/45-28073/"
+        },
+        {
+          "id": 202,
+          "title": "توسعه اولین Api با متد Get",
+          "path": "DevelopGetApi",
+          "lessonLink": "https://sabzlearn.ir/lesson/45-28074/"
+        },
+        {
+          "id": 203,
+          "title": "نحوه دسترسی به متد Request",
+          "path": "AccessRequest",
+          "lessonLink": "https://sabzlearn.ir/lesson/45-28075/"
+        },
+        {
+          "id": 204,
+          "title": "دسترسی به بادی Request",
+          "path": "AccessRequestBody",
+          "lessonLink": "https://sabzlearn.ir/lesson/45-28076/"
+        },
+        {
+          "id": 205,
+          "title": "ارسال رکوئست به Api از طریق فرانت‌اند",
+          "path": "SendReqToApi",
+          "lessonLink": "https://sabzlearn.ir/lesson/45-28077/"
+        },
+        {
+          "id": 206,
+          "title": "توسعه Dynamic Api",
+          "path": "DynamicApi",
+          "lessonLink": "https://sabzlearn.ir/lesson/45-28078/"
+        },
+        {
+          "id": 207,
+          "title": "آشنایی با Status Code های مختلف",
+          "path": "StatusCodes",
+          "lessonLink": "https://sabzlearn.ir/lesson/45-28079/"
+        },
+        {
+          "id": 208,
+          "title": "استفاده از فایل json به عنوان دیتابیس با ماژول های fs و path",
+          "path": "UseJSONasDB",
+          "lessonLink": "https://sabzlearn.ir/lesson/45-28080/"
+        },
+        {
+          "id": 209,
+          "title": "توسعه Api برای ثبت‌نام کاربر جدید در سایت",
+          "path": "ApiForRegister",
+          "lessonLink": "https://sabzlearn.ir/lesson/45-28081/"
+        },
+        {
+          "id": 210,
+          "title": "توسعه Api حذف کاربر با متد Delete",
+          "path": "ApiForDelete",
+          "lessonLink": "https://sabzlearn.ir/lesson/45-28082/"
+        },
+        {
+          "id": 211,
+          "title": "توسعه Api ویرایش کاربر با متد های Put و Patch",
+          "path": "ApiForPut",
+          "lessonLink": "https://sabzlearn.ir/lesson/45-28083/"
+        },
+        {
+          "id": 212,
+          "title": "استفاده از Slug در توسعه Api",
+          "path": "SlugInApi",
+          "lessonLink": "https://sabzlearn.ir/lesson/45-28086/"
+        },
+        {
+          "id": 213,
+          "title": "نحوه استفاده از Slug برای هوم‌پیج Api",
+          "path": "SlugInApiHomePage",
+          "lessonLink": "https://sabzlearn.ir/lesson/45-28087/"
+        },
+        {
+          "id": 214,
+          "title": "میشه تو pre-render از Api Route استفاده کرد؟",
+          "path": "SlugInPreRendering",
+          "lessonLink": "https://sabzlearn.ir/lesson/45-28088/"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "کار با دیتابیس MongoDB در Next.js",
+      "path": "MongoDB",
+      "topics": [
+        {
+          "id": 301,
+          "title": "دیتابیس چیست؟",
+          "path": "DataBaseDisc",
+          "lessonLink": "https://sabzlearn.ir/lesson/45-28108/",
+          "text": "دیتابیس محلی است که ما در آن اطلاعات مختلف را ذخیره میکنیم .دیتابیس یک CLI یا Command Line Interface است که ما میتوانیم بجای کامند از GUI ها استفاده کنیم در دیتابیس داده ها در کالاکشن و در کالاکشن ها در داکیومنت ها و نهایتا در فیلدها ذخیر میشوند.",
+          "link": "",
+          "code": ""
+        },
+        {
+          "id": 302,
+          "title": "ایجاد دیتابیس با Mongoose",
+          "path": "UseMongoose",
+          "lessonLink": "https://sabzlearn.ir/lesson/45-28110/",
+          "text": "بعد از نصب دیتابیس مونگو دی بی با نصب کتابخانه mongoose  میتوانیم به دیتابیس خودمون متصل بشیم ",
+          "link": "https://www.npmjs.com/package/mongoose",
+          "code": "mongoose.connect('mongodb://127.0.0.1:27017/users')//users is the database name"
+        },
+        {
+          "id": 303,
+          "title": "بررسی connection های ایجاد شده",
+          "path": "CheckMongooseConnection",
+          "lessonLink": "https://sabzlearn.ir/lesson/45-28111/",
+          "text": "برای جلوگیری از اینکه با هر بار ریکوئست مونگوز دوباره به دیتابیس متصل شود کد های اتصال به دیتابیس را در پوشه ای جدا مثلا یوتیلز قرار میدهیم و در آن شرطی قرار میدهیم که اگر اتصال از قبل برقرار بود دیگر اتصال مجدد برقرار نکند.",
+          "link": "https://www.npmjs.com/package/mongoose",
+          "code": "try{ if (mongoose.connections[0].readyState) {return false;}}"
+        },
+        {
+          "id": 304,
+          "title": "آشنایی با Model و Schema - ایجاد Model کاربران",
+          "path": "SchemaAndModel",
+          "lessonLink": "https://sabzlearn.ir/lesson/45-28112/",
+          "text": "برای ساخت کالاکشن در دیتابیس باید برای هر کالاکشن یه فایل کدل که فایل جاوااسکریپت هست بسازیم در فایل مدل ما برای فیلد های داکیومنت های کالاکشن اسکیما میسازیم که در آن ویژگی های هر فیلد را تعیین میکنیم مثل تایپ و ریکوایرد بودن آن فیلد . فیلد id  را خود مونگودیبی برای داکیومنت ها درست میکند",
+          "link": "https://www.npmjs.com/package/mongoose",
+          "code": "const schema = mongoose.Schema({ name: {type: String,required: true},email: {type: String,required: true,}})"
+        }
+      ]
+    }
+  ]
 }
