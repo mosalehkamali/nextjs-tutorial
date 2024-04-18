@@ -1,7 +1,7 @@
-import fs from 'fs';
-import path from 'path';
 import connectToDB from '@/utils/users';
 import usersModel from '@/models/user';
+import { isValidObjectId } from 'mongoose';
+
 
 export default async function handle(req, res) {
     connectToDB()
@@ -9,15 +9,17 @@ export default async function handle(req, res) {
 
         const id = req.query.id //آی دی کوئری ارسال شده را ذخیره میکنیم
 
-        const deletedUser = await usersModel.findOneAndDelete({ _id: id })
-
-
-        if (deletedUser) {
-            //اگر خطا نداشت پیغام موفقیت حذف را ارسال میکنیم
-            res.json({ message: "User removed successfuly" })
-        } else {
-            // اگر با خطا مواجه شدیم خطا را ارسال میکنیم
-            res.status(404).json({ message: "User not found" });
+        if(isValidObjectId(id)){
+            const deletedUser = await usersModel.findOneAndDelete({ _id: id })
+            if (deletedUser) {
+                //اگر خطا نداشت پیغام موفقیت حذف را ارسال میکنیم
+                res.json({ message: "User removed successfuly" })
+            } else {
+                // اگر با خطا مواجه شدیم خطا را ارسال میکنیم
+                res.status(404).json({ message: "User not found" });
+            }
+        }else{
+            res.status(422).json({message:"User ID is not valid !!"})
         }
 
     } else if (req.method === "PUT") {
