@@ -7,37 +7,19 @@ export default async function handle(req, res) {
     connectToDB()
     if (req.method === "DELETE") { //متد را چک میکنیم
 
-        const query = req.query.id //آی دی کوئری ارسال شده را ذخیره میکنیم
+        const id = req.query.id //آی دی کوئری ارسال شده را ذخیره میکنیم
 
-        //آدرس فایل دیتابیس را ذخیره میکنیم
-        const filePath = path.join(process.cwd(), '/data', 'users.json');
-        //دیتا را از ادرس ایجاد شده میخوانیم
-        const users = fs.readFileSync(filePath);
-        //دیتا را به صورت آبجکت در آورده و ذخیره میکنیم
-        const parsedUsers = JSON.parse(users).users;
+        const deletedUser = await usersModel.findOneAndDelete({ _id: id })
 
-        //چک میکنیم که دیتای خواسته شده وجود دارد یا نه
-        const isUser = parsedUsers.some(user => String(user.id) === String(query));
 
-        //اگر دیتا موجود بود
-        if (isUser) {
-            //دیتا با آیدی کوئری را فیلتر میکنیم و آرایه جدید را ذخیره میکنیم
-            const newUsers = parsedUsers.filter(user => String(user.id) !== String(query));
-
-            //آرایه جدید  را به صورت جیسون در دیتابیس ذخیره میکنیم
-            const err = fs.writeFileSync(filePath, JSON.stringify({ "users": newUsers }));
-
-            if (err) {
-                // اگر با خطا مواجه شدیم خطا را ارسال میکنیم
-                res.status(403).json(err)
-            } else {
-                //اگر خطا نداشت پیغام موفقیت حذف را ارسال میکنیم
-                res.json({ message: "User removed successfuly" })
-            }
+        if (deletedUser) {
+            //اگر خطا نداشت پیغام موفقیت حذف را ارسال میکنیم
+            res.json({ message: "User removed successfuly" })
         } else {
-            //اگر دیتای خواسته شده وجود نداشت خطا را ارسال میکنیم
+            // اگر با خطا مواجه شدیم خطا را ارسال میکنیم
             res.status(404).json({ message: "User not found" });
         }
+
     } else if (req.method === "PUT") {
         const { name, email } = req.body //تغییراتی که باید انجام شود را دریافت میکنیم
 

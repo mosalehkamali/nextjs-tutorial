@@ -333,6 +333,15 @@
           "text": " برای دریافت فیلدهای یک داکیومنت به صورت آبجکت کافی است در روت داینامیک آیدی یا هر کوئری دیگری را بگیریم و بدر متد find  آن را روی مدل کالاکشن پیاده کنیم تا داکیومنت هایی که آن فیلد را دارند برای ما ریترن شوند",
           "link": "https://www.npmjs.com/package/mongoose",
           "code": "const  users = await usersModel.find({ _id : id })"
+        },
+        {
+          "id": 308,
+          "title": "چطور یک Document رو Delete کنیم؟",
+          "path": "DeleteDocument",
+          "lessonLink": "https://sabzlearn.ir/lesson/45-28116/",
+          "text": " برای حذف یک داکیومنت  کافی است در روت داینامیک آیدی یا هر کوئری دیگری را بگیریم و بدر متد findOneAndDelete  آن را روی مدل کالاکشن پیاده کنیم تا داکیومنت هایی که آن فیلد را دارند حذف شوند و آنها ریترن شوند",
+          "link": "https://www.npmjs.com/package/mongoose",
+          "code": " const deletedUser = await usersModel.findOneAndDelete({ _id: id })"
         }
       ]
     }

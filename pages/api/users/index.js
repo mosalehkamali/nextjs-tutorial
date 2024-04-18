@@ -18,9 +18,6 @@ async function index(req, res) {
             const { name, email } = req.body //اطلاعات فرستاده شده در باردی را میگیریم
             //آدرس دیتابیس را ایجاد میکنیم
 
-            // console.log(name);
-            // res.json({name,email})
-
             if (!name.trim() || !email.trim()) {
                 return res.status(422).json({ message: "Data is not valid ❌" })
             }
