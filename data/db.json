@@ -342,6 +342,15 @@
           "text": " برای حذف یک داکیومنت  کافی است در روت داینامیک آیدی یا هر کوئری دیگری را بگیریم و بدر متد findOneAndDelete  آن را روی مدل کالاکشن پیاده کنیم تا داکیومنت هایی که آن فیلد را دارند حذف شوند و آنها ریترن شوند",
           "link": "https://www.npmjs.com/package/mongoose",
           "code": " const deletedUser = await usersModel.findOneAndDelete({ _id: id })"
+        },
+        {
+          "id": 309,
+          "title": "چطور رو Document رو Update کنیم؟",
+          "path": "UpdateDocument",
+          "lessonLink": "https://sabzlearn.ir/lesson/45-28117/",
+          "text": "برای آپدیت یا ادیت یک داکیومنت باید در روت داینامیک برای api متد PUT یا PATCH برای مدل کالاکشن متد findOneAndUpdate را با ورودی اول انتخاب داکیومنت به وسیله فیلدش و ورودی دوم تغییرات مورد نظر در قالب آبجکت قرار بدهیم",
+          "link": "https://www.npmjs.com/package/mongoose",
+          "code": "const updatedUser= await usersModel.findOneAndUpdate({_id : id}, {name ,email})"
         }
       ]
     }
