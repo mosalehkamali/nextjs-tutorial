@@ -1,7 +1,7 @@
+import connectToDB from '@/utils/users'
+import usersModel from '@/models/user';
 import React, { useState } from 'react'
 
-const fs = require('fs')
-const path = require('path')
 
 function Register({data}) {
   const [name, setName] = useState('')
@@ -48,13 +48,13 @@ function Register({data}) {
 }
 
 export async function getStaticProps(contaxt) {
+  connectToDB()
 
-  const dbPath = path.join(process.cwd(), "data", "users.json");//process.cwd() روتی که پروژه در آن اجرا میشود را برمیگردانند
-  const data = fs.readFileSync(dbPath)//بامتد readFileSync(dbPath) فایلی که باید خوانده شود را دریافت میکند
-  const jsonData = JSON.parse(data);//داده ها را به جیسون پارس تبدیل میکنیم تا قابل خواندن شوند
+  const users = await usersModel.find() 
+  
   return{
     props:{
-      data:jsonData.users //داده ها را به کامپوننت ارسال میکنیم
+      data:JSON.parse(JSON.stringify(users)) //داده ها را به کامپوننت ارسال میکنیم
     }
   }
 }

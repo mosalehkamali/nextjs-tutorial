@@ -360,6 +360,15 @@
           "text": "id که مونگو دی بی برای داکیومنت ها میسازد از نوع objectID  است و وقتی که آی دی ارسالی در API  آبجکت آی دی نباشد بک اند کرش میکند برای جلوگیری از این اتفاق باید ولیدیشن برای آیدی بگذاریم برای این کار متد isValidObjectId را از کتابخانه مونگوس ایمپورت میکنیم",
           "link": "https://www.npmjs.com/package/mongoose",
           "code": " if(isValidObjectId(id)){const deletedUser = await usersModel.findOneAndDelete({ _id: id })}"
+        },
+        {
+          "id": 311,
+          "title": "استفاده از دیتابیس در صفحات SSG و SsR",
+          "path": "DBInPreRendering",
+          "lessonLink": "https://sabzlearn.ir/lesson/45-28119/",
+          "text": "برای استفاده از دیتابیس در صفحات ssg وssr کافی است در تابع های getStaticProps و getServerSideProps به دیتا بیس متصل بشویم و مدل کالکشن موردنظر خود را فایند کنیم سپس داده های ریترن شده استفاده کنیم البته قبلسش باید داده هارا به شکل آبجکت در بیاوریم برای این کار یک با استرینگیفای شان میکنیم سپس پارسشان میکنیم",
+          "link": "https://www.npmjs.com/package/mongoose",
+          "code": " const users = await usersModel.find()  data:JSON.parse(JSON.stringify(users))"
         }
       ]
     }
