@@ -324,6 +324,15 @@
           "text": "برای دریافت اطلاعات یک کالاکشن کافیست مدل آن را ایمپرت کنیم و و روی مدل آن متد find را اجرا کنیم که خروجی آن پرامیس است و بای اویت باشد",
           "link": "https://www.npmjs.com/package/mongoose",
           "code": "const  users = await usersModel.find()"
+        },
+        {
+          "id": 307,
+          "title": "دریافت اطلاعات یک Document",
+          "path": "GetDocumentData",
+          "lessonLink": "https://sabzlearn.ir/lesson/45-28115/",
+          "text": " برای دریافت فیلدهای یک داکیومنت به صورت آبجکت کافی است در روت داینامیک آیدی یا هر کوئری دیگری را بگیریم و بدر متد find  آن را روی مدل کالاکشن پیاده کنیم تا داکیومنت هایی که آن فیلد را دارند برای ما ریترن شوند",
+          "link": "https://www.npmjs.com/package/mongoose",
+          "code": "const  users = await usersModel.find({ _id : id })"
         }
       ]
     }
