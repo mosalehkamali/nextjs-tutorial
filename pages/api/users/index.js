@@ -9,32 +9,30 @@ async function index(req, res) {
     switch (req.method) {
         case "GET": {
 
-            const dbPath = path.join(process.cwd(), "data", "users.json");
-            const data = fs.readFileSync(dbPath)
-            const jsonData = JSON.parse(data);
+            const  users = await usersModel.find()
 
-            res.json(jsonData)
+            res.json(users)
             break;
         }
         case "POST": {
             const { name, email } = req.body //اطلاعات فرستاده شده در باردی را میگیریم
             //آدرس دیتابیس را ایجاد میکنیم
-            
+
             // console.log(name);
             // res.json({name,email})
 
             if (!name.trim() || !email.trim()) {
-               return res.status(422).json({ message: "Data is not valid ❌" })
+                return res.status(422).json({ message: "Data is not valid ❌" })
             }
 
             const user = await usersModel.create({ name, email })
 
             console.log(user);
 
-            if(user){
-                return res.status(201).json({ message: "you registered successfuly"})
-            }else{
-                return res.json({message:"faild to register"})
+            if (user) {
+                return res.status(201).json({ message: "you registered successfuly" })
+            } else {
+                return res.json({ message: "faild to register" })
             }
 
         }
