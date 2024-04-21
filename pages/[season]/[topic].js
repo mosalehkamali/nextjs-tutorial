@@ -23,7 +23,7 @@ export default function topic({ dataSeason, data }) {
       </div>
       <p className="topic-text">{data.text}</p>
 
-      {data.form ? <ul>{data.form.map(item => (
+      {data.list ? <ul>{data.list.map(item => (
         <li className="topic-text" key={data.id}>{item}</li>
       ))}
       </ul> : null}
