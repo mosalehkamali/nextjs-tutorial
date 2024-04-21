@@ -22,6 +22,12 @@ export default function topic({ dataSeason, data }) {
         <div> <Link className={style.vidBtn} href={data.lessonLink}>Toturial Video</Link></div>
       </div>
       <p className="topic-text">{data.text}</p>
+
+      {data.form ? <ul>{data.form.map(item => (
+        <li className="topic-text" key={data.id}>{item}</li>
+      ))}
+      </ul> : null}
+
       {data.link ? <Link className='topic-link' href={data.link}>Next.js document about this topic</Link> : null}
       {data.code ? <CodeBox code={data.code} /> : null}
     </>
