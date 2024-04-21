@@ -393,6 +393,15 @@
           ],
           "link": "https://mongoosejs.com/docs/api/schema.html#Schema()",
           "code": ""
+        },
+        {
+          "id":402,
+          "title": "مفهوم timestamps",
+          "path": "Timestamps",
+          "lessonLink": "https://sabzlearn.ir/lesson/45-28178/",
+          "text": "بعضی اوقات نیاز است که زمان دقیق ساخه شدن یه داکیومنت یا آپدیت شدنش را داشته باشیم برای این اطلاعات باید بعد از آبجکت اول که ساختار اسکیما فیلد هاست در یک آبجکت دیگر پارامتر timestamps را برابر با true قرار میدهیم با این کار دو فیلد یگر در داکیومنت ما ساخته میشود که یکی زمان ساخته شدن داکیومنت را نشان میدهد به نام createdAt و دیگری زمان آخرین آپدیت داکیومنت را نشان میدهد به نام updatedAt",
+          "list":[],
+          "code":"const schema = new mongoose.Schema({ ساختار فیلدها }, { timestamps: true })"
         }
       ]
     }

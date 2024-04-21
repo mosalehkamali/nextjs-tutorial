@@ -24,8 +24,6 @@ async function index(req, res) {
 
             const user = await usersModel.create({ name, email })
 
-            console.log(user);
-
             if (user) {
                 return res.status(201).json({ message: "you registered successfuly" })
             } else {
