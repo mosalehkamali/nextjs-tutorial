@@ -415,6 +415,16 @@
             "many to many : ارتباط چند داکیومنت با چند داکیومنت به صورت مشترک"
           ],
           "code":""
+        },
+        {
+          "id":404,
+          "title": "توسعه Relation از نوع One-To-Many",
+          "path": "OneToManyRelation",
+          "lessonLink": "https://sabzlearn.ir/lesson/45-28181/",
+          "text": "برای ارتباط بین یک داکیومنت با چند داکیومنت بای یک فیلد به دداکیمنت هایی که مخواهیم به آن متصط باشند بهیم تایپ آن را برابر با    type: mongoose.Types.ObjectId قرار میدهیم و ورودی آن را و کانفیگ ref آن را برابر با نام مدلی که میخواهیم داکیومنت هایش متصل شویم قرار میدهیم سپس زمان ساخت داکیومنت این فیلد را برابر با آبجکت آی دی داکیومنت والد قرار میدهیم",
+          "list":[],
+          "link":"",
+          "code":" teacher:{type: mongoose.Types.ObjectId,ref:'Teacher',required:true}"
         }
       ]
     }
