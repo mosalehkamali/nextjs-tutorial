@@ -435,6 +435,16 @@
           "list":[],
           "link":"",
           "code":" const courses = await courseModel.find().populate('fild name')"
+        },
+        {
+          "id":406,
+          "title": "انتخاب یا حذف فیلد های مورد نظر",
+          "path": "SelectFild",
+          "lessonLink": "https://sabzlearn.ir/lesson/45-28183/",
+          "text": "برای انتخاب یک فیلد که تنها آن در رسپانس فرستاده شود نام آن فیلد را در ورودی دوم متد find یا populate وارد میکنیم یا برای حذف فیلد در همانجا فقط یک منها قبلش میگذاریم",
+          "list":[],
+          "link":"",
+          "code":"    const courses = await courseModel.find({},'-__v').populate('teacher','name')"
         }
       ]
     }
