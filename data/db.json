@@ -445,6 +445,16 @@
           "list":[],
           "link":"",
           "code":"    const courses = await courseModel.find({},'-__v').populate('teacher','name')"
+        },
+        {
+          "id":407,
+          "title": "انواع Relation در دیتابیس (Reference Vs Embedded)",
+          "path": "RelationKinds",
+          "lessonLink": "https://sabzlearn.ir/lesson/45-28184/",
+          "text": "به جز روش reference که فقط آبجکت آی دی والد را به فیلد ارتباط میدهیم یک روش دیگر هم هست به اسم embedded که کل آبجکت داکیومنت اول را در فیلد داکیومنت دوم قرار میدهیم برای این کار تایپ فیلد را برابر با اسکیمای مدل داکیومنت اول قرار میدهیم و زمان ساخت داکیومنت دوم در آن فیلد داکیومنت اول ساخته شود",
+          "list":[],
+          "link":"",
+          "code":""
         }
       ]
     }
