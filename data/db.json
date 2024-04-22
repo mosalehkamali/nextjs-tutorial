@@ -425,6 +425,16 @@
           "list":[],
           "link":"",
           "code":" teacher:{type: mongoose.Types.ObjectId,ref:'Teacher',required:true}"
+        },
+        {
+          "id":405,
+          "title": "آشنایی با متد Populate",
+          "path": "Populate",
+          "lessonLink": "https://sabzlearn.ir/lesson/45-28182/",
+          "text": "برای نمایش داده های داکیومنتی که به آن متصل شدیم به جای آیدی داکیومنت از متد populate بع از find  استفاده میکنیم و نام فیلدی که در آن آبجکت آی دی وارد شده است را به عنوان path به وروددی اش میدهیم",
+          "list":[],
+          "link":"",
+          "code":" const courses = await courseModel.find().populate('fild name')"
         }
       ]
     }
