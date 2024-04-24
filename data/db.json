@@ -465,6 +465,16 @@
           "list":[],
           "link":"",
           "code":"schema.virtual('comments',{localField:'_id',foreignField:'course',ref:'Comment'})"
+        },
+        {
+          "id":409,
+          "title": "استفاده از پکیج Fastest-Validator",
+          "path": "FastestValidator",
+          "lessonLink": "https://sabzlearn.ir/lesson/45-28187/",
+          "text":"برای ایجاد یک ولیدیشن مطمئن که از کرش کردن بک اند جلوگیری کند میتوانیم از پکیج Fastest-Validator استفاده کنیم یک اسکیما در فایل ولیدیشن میسازیم کانفیگ های مورد نظر را فیلدای مدل میدهیم و بع آن را اکسپرت میکنیم و در api استفاده میکنیم",
+          "list":[],
+          "link":"https://www.npmjs.com/package/fastest-validator",
+          "code":"const validator = courseValidator(req.body)"
         }
       ]
     }
