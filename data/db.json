@@ -475,6 +475,16 @@
           "list":[],
           "link":"https://www.npmjs.com/package/fastest-validator",
           "code":"const validator = courseValidator(req.body)"
+        },
+        {
+          "id":410,
+          "title": "مفهوم Middleware چیست؟",
+          "path": "MiddlewareConcept",
+          "lessonLink": "https://sabzlearn.ir/lesson/45-28308/",
+          "text":"middleware یا میان افزار بین فرانت اند و بک اند قبل از رسیدن ریکوئست ها به بک اند اجرا میشود و ما میتوانیم برای ریکوئست ها ولیدیشن تایین کنیم تا و قبل از رسیدن آن ها به بک اند اگر اشکالی وجود دارد از همان میان افزار رسپانس متناسب را به فرانت اند ارسال کنیم",
+          "list":[],
+          "link":"https://nextjs.org/docs/app/building-your-application/routing/middleware",
+          "code":""
         }
       ]
     }

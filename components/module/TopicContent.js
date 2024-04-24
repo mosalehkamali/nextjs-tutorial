@@ -8,7 +8,7 @@ function TopicContent({ text, link, code }) {
         <>
             <TopicHeader></TopicHeader>
             <p className="topic-text">{text}</p>
-            {link ? <Link className='topic-link' href={link}>Next.js document about this topic</Link> : null}
+            {link ? <Link className='topic-link' href={link}>Documentation about this topic</Link> : null}
             {code ? <CodeBox code={code} /> : null}
         </>
     )
