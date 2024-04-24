@@ -485,6 +485,16 @@
           "list":[],
           "link":"https://nextjs.org/docs/app/building-your-application/routing/middleware",
           "code":""
+        },
+        {
+          "id":411,
+          "title": "محدود کردن Middleware به صفحات خاص",
+          "path": "MiddlewareConfig",
+          "lessonLink": "https://sabzlearn.ir/lesson/45-28321/",
+          "text":"وقتی بخواهیم میدل ویر فقط در بعضی روت ها اجرا شود آبجکتی به اسم config را اکسپورت میکنیم و در آن پراپرتی matcher را برابر با path هایی که میخواهیم middleware در آن اجرا شود قرار میدهیم",
+          "list":[],
+          "link":"https://nextjs.org/docs/app/building-your-application/routing/middleware#matching-paths",
+          "code":"export const config = {matcher: '/users:path*'}"
         }
       ]
     }
