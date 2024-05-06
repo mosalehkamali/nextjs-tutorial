@@ -514,6 +514,12 @@
           "title": "Prop های پیشرفته Image",
           "path": "imageComponentProps",
           "lessonLink": "https://sabzlearn.ir/lesson/45-28647/"
+        },
+        {
+          "id": 503,
+          "title": "استفاده از کامپوننت Head",
+          "path": "HeadComponentUsing",
+          "lessonLink": "https://sabzlearn.ir/lesson/45-28648/"
         }
       ]
     }
