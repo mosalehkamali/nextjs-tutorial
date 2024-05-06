@@ -378,12 +378,12 @@
       "path": "backEndInNext",
       "topics": [
         {
-          "id":401,
+          "id": 401,
           "title": "کانفیگ های پیشرفته Schema در Mongoose",
           "path": "SchemaAdvance",
           "lessonLink": "https://sabzlearn.ir/lesson/45-28177/",
           "text": "شما در Schema کانفیگ های متنوعی را میتوانیدد برای هر فیلد قرار بدهید مثل",
-          "list":[
+          "list": [
             "min و max برای فیلد های تایپ نامبر مینیمم و ماکسیمم عدد را مشخص میکند",
             "برای فیلد های با تایپ استرینگ مامیتوانیم از minLengthو maxLength استفاده کنیم که محدودیت های برای تعداد حروف فیلد مشخص میکنیم",
             "با index - unique که ورودی بولین میگیرند میتوانیم مقدار فیلد را یونیک کنیم که همه این فیلد همه داکیومنت ها متفاوت باشد",
@@ -395,106 +395,119 @@
           "code": ""
         },
         {
-          "id":402,
+          "id": 402,
           "title": "مفهوم timestamps",
           "path": "Timestamps",
           "lessonLink": "https://sabzlearn.ir/lesson/45-28178/",
           "text": "بعضی اوقات نیاز است که زمان دقیق ساخه شدن یه داکیومنت یا آپدیت شدنش را داشته باشیم برای این اطلاعات باید بعد از آبجکت اول که ساختار اسکیما فیلد هاست در یک آبجکت دیگر پارامتر timestamps را برابر با true قرار میدهیم با این کار دو فیلد یگر در داکیومنت ما ساخته میشود که یکی زمان ساخته شدن داکیومنت را نشان میدهد به نام createdAt و دیگری زمان آخرین آپدیت داکیومنت را نشان میدهد به نام updatedAt",
-          "list":[],
-          "code":"const schema = new mongoose.Schema({ ساختار فیلدها }, { timestamps: true })"
+          "list": [],
+          "code": "const schema = new mongoose.Schema({ ساختار فیلدها }, { timestamps: true })"
         },
         {
-          "id":403,
+          "id": 403,
           "title": "مفهوم Relation در دیتابیس",
           "path": "RelationInDB",
           "lessonLink": "https://sabzlearn.ir/lesson/45-28179/",
           "text": "بعضی وقت ها نیاز است بین کالکشن ها باهم ارتباط برقرار کنند این ارتباط ها به سه شکل میتوانند وجود داشته اول.",
-          "list":[
+          "list": [
             "one to one : یعنی یک داکیومنت با یک داکیومنت دیگر ارتباط داشته باشد",
             "one to many : ارتباط یک داکیومنت با چند داکیومنت ",
             "many to many : ارتباط چند داکیومنت با چند داکیومنت به صورت مشترک"
           ],
-          "code":""
+          "code": ""
         },
         {
-          "id":404,
+          "id": 404,
           "title": "توسعه Relation از نوع One-To-Many",
           "path": "OneToManyRelation",
           "lessonLink": "https://sabzlearn.ir/lesson/45-28181/",
           "text": "برای ارتباط بین یک داکیومنت با چند داکیومنت بای یک فیلد به دداکیمنت هایی که مخواهیم به آن متصط باشند بهیم تایپ آن را برابر با    type: mongoose.Types.ObjectId قرار میدهیم و ورودی آن را و کانفیگ ref آن را برابر با نام مدلی که میخواهیم داکیومنت هایش متصل شویم قرار میدهیم سپس زمان ساخت داکیومنت این فیلد را برابر با آبجکت آی دی داکیومنت والد قرار میدهیم",
-          "list":[],
-          "link":"",
-          "code":" teacher:{type: mongoose.Types.ObjectId,ref:'Teacher',required:true}"
+          "list": [],
+          "link": "",
+          "code": " teacher:{type: mongoose.Types.ObjectId,ref:'Teacher',required:true}"
         },
         {
-          "id":405,
+          "id": 405,
           "title": "آشنایی با متد Populate",
           "path": "Populate",
           "lessonLink": "https://sabzlearn.ir/lesson/45-28182/",
           "text": "برای نمایش داده های داکیومنتی که به آن متصل شدیم به جای آیدی داکیومنت از متد populate بع از find  استفاده میکنیم و نام فیلدی که در آن آبجکت آی دی وارد شده است را به عنوان path به وروددی اش میدهیم",
-          "list":[],
-          "link":"",
-          "code":" const courses = await courseModel.find().populate('fild name')"
+          "list": [],
+          "link": "",
+          "code": " const courses = await courseModel.find().populate('fild name')"
         },
         {
-          "id":406,
+          "id": 406,
           "title": "انتخاب یا حذف فیلد های مورد نظر",
           "path": "SelectFild",
           "lessonLink": "https://sabzlearn.ir/lesson/45-28183/",
           "text": "برای انتخاب یک فیلد که تنها آن در رسپانس فرستاده شود نام آن فیلد را در ورودی دوم متد find یا populate وارد میکنیم یا برای حذف فیلد در همانجا فقط یک منها قبلش میگذاریم",
-          "list":[],
-          "link":"",
-          "code":"    const courses = await courseModel.find({},'-__v').populate('teacher','name')"
+          "list": [],
+          "link": "",
+          "code": "    const courses = await courseModel.find({},'-__v').populate('teacher','name')"
         },
         {
-          "id":407,
+          "id": 407,
           "title": "انواع Relation در دیتابیس (Reference Vs Embedded)",
           "path": "RelationKinds",
           "lessonLink": "https://sabzlearn.ir/lesson/45-28184/",
           "text": "به جز روش reference که فقط آبجکت آی دی والد را به فیلد ارتباط میدهیم یک روش دیگر هم هست به اسم embedded که کل آبجکت داکیومنت اول را در فیلد داکیومنت دوم قرار میدهیم برای این کار تایپ فیلد را برابر با اسکیمای مدل داکیومنت اول قرار میدهیم و زمان ساخت داکیومنت دوم در آن فیلد داکیومنت اول ساخته شود",
-          "list":[],
-          "link":"",
-          "code":""
+          "list": [],
+          "link": "",
+          "code": ""
         },
         {
-          "id":408,
+          "id": 408,
           "title": "توسعه Virtual Relation",
           "path": "VirtualRelation",
           "lessonLink": "https://sabzlearn.ir/lesson/45-28186/",
-          "text":"زمانی که نیاز است یک رابطه  one to many  داشته باشیم نمیتوانیم در مدل لوکال تمام فیلد های ارتباطی داکیومنت های foriegn را بسازیم برای حل این مشکل از virtual relation استفاده میکنیم در این روش یک فیلد مجازی برای مدل لوکال میسازیم و فیلد مشابه را در لوکال و فارن مشخص میکنیم و رفرنس آن را به مدل فارن میدهیم با این کار در زمانی که میخواهیم اطلاعات آن کالاکشن لوکال را بگیریم اگر آد فیلد مجازی را populate  کنیم اطلاعات داکیومنت های فارن که با لوکال ارتباط دارن  در آن فیلد مجازی به ما نمایش داده میشود.",
-          "list":[],
-          "link":"",
-          "code":"schema.virtual('comments',{localField:'_id',foreignField:'course',ref:'Comment'})"
+          "text": "زمانی که نیاز است یک رابطه  one to many  داشته باشیم نمیتوانیم در مدل لوکال تمام فیلد های ارتباطی داکیومنت های foriegn را بسازیم برای حل این مشکل از virtual relation استفاده میکنیم در این روش یک فیلد مجازی برای مدل لوکال میسازیم و فیلد مشابه را در لوکال و فارن مشخص میکنیم و رفرنس آن را به مدل فارن میدهیم با این کار در زمانی که میخواهیم اطلاعات آن کالاکشن لوکال را بگیریم اگر آد فیلد مجازی را populate  کنیم اطلاعات داکیومنت های فارن که با لوکال ارتباط دارن  در آن فیلد مجازی به ما نمایش داده میشود.",
+          "list": [],
+          "link": "",
+          "code": "schema.virtual('comments',{localField:'_id',foreignField:'course',ref:'Comment'})"
         },
         {
-          "id":409,
+          "id": 409,
           "title": "استفاده از پکیج Fastest-Validator",
           "path": "FastestValidator",
           "lessonLink": "https://sabzlearn.ir/lesson/45-28187/",
-          "text":"برای ایجاد یک ولیدیشن مطمئن که از کرش کردن بک اند جلوگیری کند میتوانیم از پکیج Fastest-Validator استفاده کنیم یک اسکیما در فایل ولیدیشن میسازیم کانفیگ های مورد نظر را فیلدای مدل میدهیم و بع آن را اکسپرت میکنیم و در api استفاده میکنیم",
-          "list":[],
-          "link":"https://www.npmjs.com/package/fastest-validator",
-          "code":"const validator = courseValidator(req.body)"
+          "text": "برای ایجاد یک ولیدیشن مطمئن که از کرش کردن بک اند جلوگیری کند میتوانیم از پکیج Fastest-Validator استفاده کنیم یک اسکیما در فایل ولیدیشن میسازیم کانفیگ های مورد نظر را فیلدای مدل میدهیم و بع آن را اکسپرت میکنیم و در api استفاده میکنیم",
+          "list": [],
+          "link": "https://www.npmjs.com/package/fastest-validator",
+          "code": "const validator = courseValidator(req.body)"
         },
         {
-          "id":410,
+          "id": 410,
           "title": "مفهوم Middleware چیست؟",
           "path": "MiddlewareConcept",
           "lessonLink": "https://sabzlearn.ir/lesson/45-28308/",
-          "text":"middleware یا میان افزار بین فرانت اند و بک اند قبل از رسیدن ریکوئست ها به بک اند اجرا میشود و ما میتوانیم برای ریکوئست ها ولیدیشن تایین کنیم تا و قبل از رسیدن آن ها به بک اند اگر اشکالی وجود دارد از همان میان افزار رسپانس متناسب را به فرانت اند ارسال کنیم",
-          "list":[],
-          "link":"https://nextjs.org/docs/app/building-your-application/routing/middleware",
-          "code":""
+          "text": "middleware یا میان افزار بین فرانت اند و بک اند قبل از رسیدن ریکوئست ها به بک اند اجرا میشود و ما میتوانیم برای ریکوئست ها ولیدیشن تایین کنیم تا و قبل از رسیدن آن ها به بک اند اگر اشکالی وجود دارد از همان میان افزار رسپانس متناسب را به فرانت اند ارسال کنیم",
+          "list": [],
+          "link": "https://nextjs.org/docs/app/building-your-application/routing/middleware",
+          "code": ""
         },
         {
-          "id":411,
+          "id": 411,
           "title": "محدود کردن Middleware به صفحات خاص",
           "path": "MiddlewareConfig",
           "lessonLink": "https://sabzlearn.ir/lesson/45-28321/",
-          "text":"وقتی بخواهیم میدل ویر فقط در بعضی روت ها اجرا شود آبجکتی به اسم config را اکسپورت میکنیم و در آن پراپرتی matcher را برابر با path هایی که میخواهیم middleware در آن اجرا شود قرار میدهیم",
-          "list":[],
-          "link":"https://nextjs.org/docs/app/building-your-application/routing/middleware#matching-paths",
-          "code":"export const config = {matcher: '/users:path*'}"
+          "text": "وقتی بخواهیم میدل ویر فقط در بعضی روت ها اجرا شود آبجکتی به اسم config را اکسپورت میکنیم و در آن پراپرتی matcher را برابر با path هایی که میخواهیم middleware در آن اجرا شود قرار میدهیم",
+          "list": [],
+          "link": "https://nextjs.org/docs/app/building-your-application/routing/middleware#matching-paths",
+          "code": "export const config = {matcher: '/users:path*'}"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "کانسپت های پیشرفته Next.js",
+      "path": "ProNextConcept",
+      "topics": [
+        {
+          "id": 501,
+          "title": "استفاده از کامپوننت Image",
+          "path": "imageComponentUsing",
+          "lessonLink": "https://sabzlearn.ir/lesson/45-28633/"
         }
       ]
     }
