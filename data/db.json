@@ -508,6 +508,12 @@
           "title": "استفاده از کامپوننت Image",
           "path": "imageComponentUsing",
           "lessonLink": "https://sabzlearn.ir/lesson/45-28633/"
+        },
+        {
+          "id": 502,
+          "title": "Prop های پیشرفته Image",
+          "path": "imageComponentProps",
+          "lessonLink": "https://sabzlearn.ir/lesson/45-28647/"
         }
       ]
     }
