@@ -556,6 +556,12 @@
           "title": "کاربرد فایل _document.js",
           "path": "documentjs",
           "lessonLink": "https://sabzlearn.ir/lesson/45-28741/"
+        },
+        {
+          "id": 510,
+          "title": "پکیج React-toastify",
+          "path": "ReactToastify",
+          "lessonLink": "https://sabzlearn.ir/lesson/45-28901/"
         }
       ]
     }
