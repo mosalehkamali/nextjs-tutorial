@@ -538,6 +538,12 @@
           "title": "کانفیگ های env",
           "path": "envConfigs",
           "lessonLink": "https://sabzlearn.ir/lesson/45-28738/"
+        },
+        {
+          "id": 507,
+          "title": "ریدایرکت کاربر از طریق Server",
+          "path": "serverRedirect",
+          "lessonLink": "https://sabzlearn.ir/lesson/45-28739/"
         }
       ]
     }
