@@ -14,6 +14,7 @@ function ReactToastify() {
         }
         link={"https://fkhadra.github.io/react-toastify/introduction/"}
       ></TopicContent>
+      <hr></hr>
       <button onClick={notify}>toastify notify</button>
       <ToastContainer draggable position="top-center" stacked />
     </>
