@@ -544,6 +544,12 @@
           "title": "ریدایرکت کاربر از طریق Server",
           "path": "serverRedirect",
           "lessonLink": "https://sabzlearn.ir/lesson/45-28739/"
+        },
+        {
+          "id": 508,
+          "title": "ایجاد Module Path های کاستوم (Absolute Imports)",
+          "path": "craeteMoudlePath",
+          "lessonLink": "https://sabzlearn.ir/lesson/45-28740/"
         }
       ]
     }
