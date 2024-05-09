@@ -520,6 +520,12 @@
           "title": "استفاده از کامپوننت Head",
           "path": "HeadComponentUsing",
           "lessonLink": "https://sabzlearn.ir/lesson/45-28648/"
+        },
+        {
+          "id": 503,
+          "title": "ست کردن کانفیگ های گلوبال Head در _app.js",
+          "path": "HeadGlobalConfigs",
+          "lessonLink": "https://sabzlearn.ir/lesson/45-28735/"
         }
       ]
     }
