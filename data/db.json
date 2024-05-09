@@ -550,6 +550,12 @@
           "title": "ایجاد Module Path های کاستوم (Absolute Imports)",
           "path": "craeteMoudlePath",
           "lessonLink": "https://sabzlearn.ir/lesson/45-28740/"
+        },
+        {
+          "id": 509,
+          "title": "کاربرد فایل _document.js",
+          "path": "documentjs",
+          "lessonLink": "https://sabzlearn.ir/lesson/45-28741/"
         }
       ]
     }
