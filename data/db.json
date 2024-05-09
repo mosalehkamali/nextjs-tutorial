@@ -532,6 +532,12 @@
           "title": "آشنایی با فایل next.config.js - انواع ریدایرکت دیفالت",
           "path": "RedirectDefault",
           "lessonLink": "https://sabzlearn.ir/lesson/45-28736/"
+        },
+        {
+          "id": 506,
+          "title": "کانفیگ های env",
+          "path": "envConfigs",
+          "lessonLink": "https://sabzlearn.ir/lesson/45-28738/"
         }
       ]
     }
