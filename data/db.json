@@ -564,6 +564,19 @@
           "lessonLink": "https://sabzlearn.ir/lesson/45-28901/"
         }
       ]
+    },
+    {
+      "id": 6,
+      "title": "بررسی تغییرات Next.js 13",
+      "path": "Next13",
+      "topics": [
+        {
+          "id": 601,
+          "title": "آشنایی با App Router",
+          "path": "AppRouter",
+          "lessonLink": "https://sabzlearn.ir/lesson/45-28956/"
+        }
+      ]
     }
   ]
 }
