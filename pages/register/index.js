@@ -1,8 +1,9 @@
 import connectToDB from "@/utils/users";
 import usersModel from "@/models/user";
 import React, { useState } from "react";
-import toast, { Toaster } from "react-hot-toast";
-
+import { toast, ToastContainer } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
+import Image from "next/image";
 function Register({ data }) {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
@@ -16,17 +17,18 @@ function Register({ data }) {
     }
   };
 
-  const notify = (message,icon, bgColor) => {
-    toast(message, {
-      duration: 3000,
+  const Msg = ({ closeToast, toastProps, text , icon}) => (
+    <div style={{ display: "flex", alignItems: "center" }}>
+      <p>{text}</p>
+      {icon}
+    </div>
+  );
+
+  const notify = (message, icon) => {
+    toast(<Msg text={message}  icon={icon}/>, {
       position: "top-center",
-      icon,
-      style:{
-        "backgroundColor":`#${bgColor}`,
-        "color":"#fff",
-        "fontWeight":"bold",
-        "textShadow":"1px 1px black",
-      }
+      autoClose: 3200,
+      theme: "dark",
     });
   };
 
@@ -47,10 +49,26 @@ function Register({ data }) {
         setName("");
         setEmail("");
         setRememberMe(false);
-        notify(data.message,"👍","B3E194");
+        notify(
+          data.message,
+          <Image
+            src={"/images/Animation.gif"}
+            width={100}
+            height={100}
+            alt={"Animation"}
+          />
+        );
       }
     } else {
-      notify("Enter your username and email","🙂","FAA8A8");
+      notify(
+        "Enter your username and email",
+        <Image
+          src={"/images/failed.gif"}
+          width={100}
+          height={100}
+          alt={"failed"}
+        />
+      );
     }
   }
 
@@ -86,7 +104,7 @@ function Register({ data }) {
         <button onClick={registerHandler} style={{ margin: "10px" }}>
           Register
         </button>
-        <Toaster />
+        <ToastContainer />
       </form>
       <ul dir="ltr">
         {data.map((user) => (
