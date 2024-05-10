@@ -587,6 +587,18 @@
           "title": "استفاده از قابلیت Route Group",
           "path": "RouteGroup",
           "lessonLink": "https://sabzlearn.ir/lesson/45-28965/"
+        },
+        {
+          "id": 604,
+          "title": "پیاده سازی Slug در App Router",
+          "path": "SlugInAppRouter",
+          "lessonLink": "https://sabzlearn.ir/lesson/45-28966/"
+        },
+        {
+          "id": 605,
+          "title": "کاربرد فایل layout.js",
+          "path": "layoutJs",
+          "lessonLink": "https://sabzlearn.ir/lesson/45-28967/"
         }
       ]
     }
