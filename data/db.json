@@ -581,6 +581,12 @@
           "title": "پیاده سازی Dynamic Route",
           "path": "DynamicRouteInApp",
           "lessonLink": "https://sabzlearn.ir/lesson/45-28957/"
+        },
+        {
+          "id": 603,
+          "title": "استفاده از قابلیت Route Group",
+          "path": "RouteGroup",
+          "lessonLink": "https://sabzlearn.ir/lesson/45-28965/"
         }
       ]
     }
