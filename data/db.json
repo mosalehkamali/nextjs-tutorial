@@ -575,6 +575,12 @@
           "title": "آشنایی با App Router",
           "path": "AppRouter",
           "lessonLink": "https://sabzlearn.ir/lesson/45-28956/"
+        },
+        {
+          "id": 602,
+          "title": "پیاده سازی Dynamic Route",
+          "path": "DynamicRouteInApp",
+          "lessonLink": "https://sabzlearn.ir/lesson/45-28957/"
         }
       ]
     }
