@@ -605,6 +605,12 @@
           "title": "پیاده سازی Nested Layout",
           "path": "NestedLayout",
           "lessonLink": "https://sabzlearn.ir/lesson/45-28968/"
+        },
+        {
+          "id": 607,
+          "title": "مفهوم Server Component و Client Component",
+          "path": "ServerAndClientComponents",
+          "lessonLink": "https://sabzlearn.ir/lesson/45-28969/"
         }
       ]
     }
