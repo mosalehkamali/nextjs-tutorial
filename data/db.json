@@ -635,6 +635,12 @@
           "title": "بررسی نسخه SSG در نسخه build پروژه",
           "path": "SSGInbuild",
           "lessonLink": "https://sabzlearn.ir/lesson/45-28979/"
+        },
+        {
+          "id": 612,
+          "title": "پیاده سازی SSR در App Router",
+          "path": "HandleSSR",
+          "lessonLink": "https://sabzlearn.ir/lesson/45-28980/"
         }
       ]
     }
