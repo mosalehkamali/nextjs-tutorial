@@ -611,6 +611,18 @@
           "title": "مفهوم Server Component و Client Component",
           "path": "ServerAndClientComponents",
           "lessonLink": "https://sabzlearn.ir/lesson/45-28969/"
+        },
+        {
+          "id": 608,
+          "title": "اگه همه چی سمت سرور رندر میشه، پس Client Component چیه؟",
+          "path": "ClientComponent",
+          "lessonLink": "https://sabzlearn.ir/lesson/45-28970/"
+        },
+        {
+          "id": 609,
+          "title": "کِی باید از کدوم استفاده کنیم؟ (کلاینت کامپوننت و سرور کامپوننت)",
+          "path": "WhenClientComponent",
+          "lessonLink": "https://sabzlearn.ir/lesson/45-28977/"
         }
       ]
     }
