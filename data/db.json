@@ -599,6 +599,12 @@
           "title": "کاربرد فایل layout.js",
           "path": "layoutJs",
           "lessonLink": "https://sabzlearn.ir/lesson/45-28967/"
+        },
+        {
+          "id": 606,
+          "title": "پیاده سازی Nested Layout",
+          "path": "NestedLayout",
+          "lessonLink": "https://sabzlearn.ir/lesson/45-28968/"
         }
       ]
     }
