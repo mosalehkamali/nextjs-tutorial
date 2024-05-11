@@ -623,6 +623,12 @@
           "title": "کِی باید از کدوم استفاده کنیم؟ (کلاینت کامپوننت و سرور کامپوننت)",
           "path": "WhenClientComponent",
           "lessonLink": "https://sabzlearn.ir/lesson/45-28977/"
+        },
+        {
+          "id": 610,
+          "title": "آشنایی با cache جدید نکست",
+          "path": "KnowingCeche",
+          "lessonLink": "https://sabzlearn.ir/lesson/45-28978/"
         }
       ]
     }
