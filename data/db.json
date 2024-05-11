@@ -629,6 +629,12 @@
           "title": "آشنایی با cache جدید نکست",
           "path": "KnowingCeche",
           "lessonLink": "https://sabzlearn.ir/lesson/45-28978/"
+        },
+        {
+          "id": 611,
+          "title": "بررسی نسخه SSG در نسخه build پروژه",
+          "path": "SSGInbuild",
+          "lessonLink": "https://sabzlearn.ir/lesson/45-28979/"
         }
       ]
     }
