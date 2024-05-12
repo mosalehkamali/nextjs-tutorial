@@ -647,6 +647,12 @@
           "title": "پیاده سازی ISR در App Router",
           "path": "HandleISR",
           "lessonLink": "https://sabzlearn.ir/lesson/45-28981/"
+        },
+        {
+          "id": 614,
+          "title": "پیاده سازی سرور کامپوننت و کاینت کامپوننت به صورت Nested",
+          "path": "NestedComponent",
+          "lessonLink": "https://sabzlearn.ir/lesson/45-28982/"
         }
       ]
     }
