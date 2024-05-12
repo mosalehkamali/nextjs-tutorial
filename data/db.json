@@ -659,6 +659,12 @@
           "title": "چرا بهتره Client Componentها رو در Leaf قرار بدیم؟",
           "path": "ClientComponentInLeaf",
           "lessonLink": "https://sabzlearn.ir/lesson/45-29021/"
+        },
+        {
+          "id": 616,
+          "title": "افزایش پرفورمنس پروژه با ارسال اصولی prop به Client Component",
+          "path": "ClientComponentProps",
+          "lessonLink": "https://sabzlearn.ir/lesson/45-29022/"
         }
       ]
     }
