@@ -665,6 +665,12 @@
           "title": "افزایش پرفورمنس پروژه با ارسال اصولی prop به Client Component",
           "path": "ClientComponentProps",
           "lessonLink": "https://sabzlearn.ir/lesson/45-29022/"
+        },
+        {
+          "id": 617,
+          "title": "مفهوم Streaming Server Rendering",
+          "path": "StreamingServerRendering",
+          "lessonLink": "https://sabzlearn.ir/lesson/45-29023/"
         }
       ]
     }
