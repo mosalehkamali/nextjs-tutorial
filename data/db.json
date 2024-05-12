@@ -653,6 +653,12 @@
           "title": "پیاده سازی سرور کامپوننت و کاینت کامپوننت به صورت Nested",
           "path": "NestedComponent",
           "lessonLink": "https://sabzlearn.ir/lesson/45-28982/"
+        },
+        {
+          "id": 615,
+          "title": "چرا بهتره Client Componentها رو در Leaf قرار بدیم؟",
+          "path": "ClientComponentInLeaf",
+          "lessonLink": "https://sabzlearn.ir/lesson/45-29021/"
         }
       ]
     }
