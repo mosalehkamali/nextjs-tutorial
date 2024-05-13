@@ -707,6 +707,12 @@
           "title": "توسعه بک‌اند با Next.13",
           "path": "backEndInNext13",
           "lessonLink": "https://sabzlearn.ir/lesson/45-29054/"
+        },
+        {
+          "id": 624,
+          "title": "نحوه دسترسی به Body رکوئست",
+          "path": "requestBody",
+          "lessonLink": "https://sabzlearn.ir/lesson/45-29055/"
         }
       ]
     }
