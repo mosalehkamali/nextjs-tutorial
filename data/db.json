@@ -695,6 +695,12 @@
           "title": "Error Handling در Next.13",
           "path": "ErrorHandling",
           "lessonLink": "https://sabzlearn.ir/lesson/45-29052/"
+        },
+        {
+          "id": 622,
+          "title": "استفاده از متد generateStaticParams",
+          "path": "generateStaticParams",
+          "lessonLink": "https://sabzlearn.ir/lesson/45-29053/"
         }
       ]
     }
