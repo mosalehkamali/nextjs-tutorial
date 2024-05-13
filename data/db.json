@@ -677,6 +677,12 @@
           "title": "آشنایی با loading.js",
           "path": "loadingJS",
           "lessonLink": "https://sabzlearn.ir/lesson/45-29024/"
+        },
+        {
+          "id": 619,
+          "title": "layout چطور stateش رو حفظ می‌کنه؟",
+          "path": "layoutState",
+          "lessonLink": "https://sabzlearn.ir/lesson/45-29026/"
         }
       ]
     }
