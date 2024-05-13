@@ -713,6 +713,12 @@
           "title": "نحوه دسترسی به Body رکوئست",
           "path": "requestBody",
           "lessonLink": "https://sabzlearn.ir/lesson/45-29055/"
+        },
+        {
+          "id": 625,
+          "title": "استفاده از Dynamic Params در Api",
+          "path": "ApiDynamicParams",
+          "lessonLink": "https://sabzlearn.ir/lesson/45-29056/"
         }
       ]
     }
