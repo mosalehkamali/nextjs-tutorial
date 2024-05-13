@@ -701,6 +701,12 @@
           "title": "استفاده از متد generateStaticParams",
           "path": "generateStaticParams",
           "lessonLink": "https://sabzlearn.ir/lesson/45-29053/"
+        },
+        {
+          "id": 623,
+          "title": "توسعه بک‌اند با Next.13",
+          "path": "backEndInNext13",
+          "lessonLink": "https://sabzlearn.ir/lesson/45-29054/"
         }
       ]
     }
