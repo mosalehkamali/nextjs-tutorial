@@ -689,6 +689,12 @@
           "title": "آشنایی با فایل template.js",
           "path": "templateJS",
           "lessonLink": "https://sabzlearn.ir/lesson/45-29027/"
+        },
+        {
+          "id": 621,
+          "title": "Error Handling در Next.13",
+          "path": "ErrorHandling",
+          "lessonLink": "https://sabzlearn.ir/lesson/45-29052/"
         }
       ]
     }
