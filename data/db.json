@@ -683,6 +683,12 @@
           "title": "layout چطور stateش رو حفظ می‌کنه؟",
           "path": "layoutState",
           "lessonLink": "https://sabzlearn.ir/lesson/45-29026/"
+        },
+        {
+          "id": 620,
+          "title": "آشنایی با فایل template.js",
+          "path": "templateJS",
+          "lessonLink": "https://sabzlearn.ir/lesson/45-29027/"
         }
       ]
     }
