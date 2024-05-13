@@ -671,6 +671,12 @@
           "title": "مفهوم Streaming Server Rendering",
           "path": "StreamingServerRendering",
           "lessonLink": "https://sabzlearn.ir/lesson/45-29023/"
+        },
+        {
+          "id": 618,
+          "title": "آشنایی با loading.js",
+          "path": "loadingJS",
+          "lessonLink": "https://sabzlearn.ir/lesson/45-29024/"
         }
       ]
     }
