@@ -743,6 +743,12 @@
           "title": "داینامیک سازی Metadata",
           "path": "MetadataDinamic",
           "lessonLink": "https://sabzlearn.ir/lesson/45-29060/"
+        },
+        {
+          "id": 630,
+          "title": "استفاده از فونت های گوگل در Next.13",
+          "path": "googleFonts",
+          "lessonLink": "https://sabzlearn.ir/lesson/45-29061/"
         }
       ]
     }
