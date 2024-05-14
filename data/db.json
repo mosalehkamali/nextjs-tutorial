@@ -731,6 +731,12 @@
           "title": "روش های کار با Cookieها",
           "path": "UseCookies",
           "lessonLink": "https://sabzlearn.ir/lesson/45-29058/"
+        },
+        {
+          "id": 628,
+          "title": "پیاده سازی Metadata",
+          "path": "Metadata",
+          "lessonLink": "https://sabzlearn.ir/lesson/45-29059/"
         }
       ]
     }
