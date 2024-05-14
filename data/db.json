@@ -737,6 +737,12 @@
           "title": "پیاده سازی Metadata",
           "path": "Metadata",
           "lessonLink": "https://sabzlearn.ir/lesson/45-29059/"
+        },
+        {
+          "id": 629,
+          "title": "داینامیک سازی Metadata",
+          "path": "MetadataDinamic",
+          "lessonLink": "https://sabzlearn.ir/lesson/45-29060/"
         }
       ]
     }
