@@ -725,6 +725,12 @@
           "title": "پیاده سازی Search Params در Api",
           "path": "SearchParamsApi",
           "lessonLink": "https://sabzlearn.ir/lesson/45-29057/"
+        },
+        {
+          "id": 627,
+          "title": "روش های کار با Cookieها",
+          "path": "UseCookies",
+          "lessonLink": "https://sabzlearn.ir/lesson/45-29058/"
         }
       ]
     }
