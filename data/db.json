@@ -719,6 +719,12 @@
           "title": "استفاده از Dynamic Params در Api",
           "path": "ApiDynamicParams",
           "lessonLink": "https://sabzlearn.ir/lesson/45-29056/"
+        },
+        {
+          "id": 626,
+          "title": "پیاده سازی Search Params در Api",
+          "path": "SearchParamsApi",
+          "lessonLink": "https://sabzlearn.ir/lesson/45-29057/"
         }
       ]
     }
